@@ -6,10 +6,10 @@
 public class TestGitBranch {
 
     public void testGitPull(){
-        System.out.println("git pull is better than git fetch");
+        System.out.println("git pull is better than git fetch ...");
     }
 
     public void testGitFetch(){
-        System.out.println("git fetch is better than git pull");
+        System.out.println("git fetch is better than git pull ...");
     }
 }

@@ -59,4 +59,6 @@ Git使用两种主要类型的标签：轻量标签（lightweight）与附注标
     $ git fetch  
     # 在大多数情况下它的含义是下面两个命令的合体：    
     $ git pull 
+ 
+ - 变基(git rebase)
   
