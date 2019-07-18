@@ -1,5 +1,7 @@
 # Git命令学习
 > 参考 [Git Pro深入浅出](https://blog.csdn.net/ligang2585116/article/details/51707318)<br />
+> 参考 [Git 官方文档](https://git-scm.com/book/zh/v2) <br />
+>
 > 边学变使用git命令
 
 ## 重新提交操作
@@ -51,14 +53,33 @@ Git使用两种主要类型的标签：轻量标签（lightweight）与附注标
     $ git push origin [tagname] 
     # 推送全部标签
     $ git push origin --tags
-    
+
 - 拉取 
 
-    
+
     # 从服务器上抓取本地没有的数据时，它并不会修改工作目录中的内容。 它只会获取数据然后让你自己合并。
     $ git fetch  
-    # 在大多数情况下它的含义是下面两个命令的合体：    
-    $ git pull 
+    # git pull 在大多数情况下它的含义是下面两个命令的合体：    
+    $ git fetch + git merge
+   
+    
+- 合并分支 (很重要)
+
+    
+    # 几个分支相同
+    1.可以使用 把分支push 到线上 在master上 git pull origin 
+    2.git merge 
+     
+    # 线上分支/预发布分布分支/测试分支 代码不同合并要特别小心
+    不能直接用 git merge操作
+    1.git fetch origin master:tmp
+      git diff tmp
+      git merge tmp
+    
+
+- 变基(git rebase) 
+    
+
  
- - 变基(git rebase)
+ 
   
