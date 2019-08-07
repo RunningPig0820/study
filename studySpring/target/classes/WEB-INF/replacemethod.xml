@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans https://springframework.org/schema/beans/spring-beans.xsd">
+    <!--报错 : <bean id="getBeanTest" class="taosha.lookupMethod.bean.AbstractBeanTest" abstract="true">-->
+    <bean id="changeMethod" class="taosha.replacedMethod.bean.ChangeMethod">
+        <replaced-method name="changeMe" replacer="replacer"/>
+    </bean>
+    <bean id="replacer" class="taosha.replacedMethod.bean.ChangeMethodReplacer" />
+</beans>
