@@ -17,11 +17,9 @@ import taosha.definitionParser.bean.User;
  **/
 public class StudySpring {
     public static void main(String[] args){
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("/WEB-INF/definitionParser.xml");
         User user = (User) context.getBean("user");
         System.out.println(user.getUserName() + "----" + user.getEmail());
 
-        Resource resource = new ClassPathResource("spring.xml");
-        BeanFactory bf = new XmlBeanFactory(resource);
     }
 }
