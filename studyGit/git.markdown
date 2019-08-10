@@ -29,13 +29,13 @@ Git使用两种主要类型的标签：轻量标签（lightweight）与附注标
 
 附注标签：是存储在 Git 数据库中的一个完整对象[推荐方式]。
     
-    $ git tag -a v1.0 -m 'my frist version 1.0 tag'
+    $ git tag -constructorA v1.0 -m 'my frist version 1.0 tag'
  
 - 后期打标签（对过去的提交打标签）
 
     
     $ git log --pretty=oneline
-    $ git tag -a v0.0 -m "补充标签"  96858b81
+    $ git tag -constructorA v0.0 -m "补充标签"  96858b81
           
 - 列出标签
     

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans https://springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="singletonA" class="taosha.circularDependency.bean.ConstructorA" lazy-init="true">
+        <constructor-arg name="constructorB" ref="singletonB"/>
+    </bean>
+
+    <bean id="singletonB" class="taosha.circularDependency.bean.ConstructorB" lazy-init="true">
+        <constructor-arg name="constructorA" ref="singletonA"/>
+    </bean>
+
+    <bean id="propertyA" class="taosha.circularDependency.bean.ConstructorA" scope="prototype">
+        <constructor-arg name="constructorB" ref="propertyB"/>
+    </bean>
+
+    <bean id="propertyB" class="taosha.circularDependency.bean.ConstructorB" scope="prototype">
+        <constructor-arg name="constructorA" ref="propertyA"/>
+    </bean>
+
+
+    <bean id="mixSingletonA" class="taosha.circularDependency.bean.ConstructorA" lazy-init="true">
+        <constructor-arg name="constructorB" ref="mixPrototypeB"/>
+    </bean>
+
+    <bean id="mixPrototypeB" class="taosha.circularDependency.bean.ConstructorB" scope="prototype">
+        <constructor-arg name="constructorA" ref="mixSingletonA"/>
+    </bean>
+
+
+
+
+    <bean id="propertyA-singleton" class="taosha.circularDependency.bean.PropertyA" lazy-init="true">
+        <property name="propertyB" ref="propertyB-singleton"/>
+    </bean>
+
+    <bean id="propertyB-singleton" class="taosha.circularDependency.bean.PropertyB" lazy-init="true">
+        <property name="propertyA" ref="propertyA-singleton"/>
+    </bean>
+
+    <bean id="propertyA-prototype" class="taosha.circularDependency.bean.PropertyA" scope="prototype">
+        <property name="propertyB" ref="propertyB-prototype"/>
+    </bean>
+
+    <bean id="propertyB-prototype" class="taosha.circularDependency.bean.PropertyB" scope="prototype">
+        <property name="propertyA" ref="propertyA-prototype"/>
+    </bean>
+
+    <bean id="propertyA-mixSingleton" class="taosha.circularDependency.bean.PropertyA" lazy-init="true">
+        <property name="propertyB" ref="propertyB-mixPrototype"/>
+    </bean>
+
+    <bean id="propertyB-mixPrototype" class="taosha.circularDependency.bean.PropertyB" scope="prototype">
+        <property name="propertyA" ref="propertyA-mixSingleton"/>
+    </bean>
+
+</beans>
