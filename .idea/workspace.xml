@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e162205d-e254-4444-83d4-4ccf1759e71d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/CarFactoryBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/bean/Car.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/carFactory.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/studyzookeeper/src/main/java/com/taosha/studyZooKeeper/zkService/ZkService.java" afterPath="$PROJECT_DIR$/studyzookeeper/src/main/java/com/taosha/studyZooKeeper/zkService/ZkService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/studySpring/target/" />
     <ignored path="$PROJECT_DIR$/studyZooKeeper/target/" />
@@ -18,498 +21,124 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZkService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/studyzookeeper/src/main/java/com/taosha/studyZooKeeper/zkService/ZkService.java">
+      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/bean/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="31" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudySpringBootApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studySpringBoot/src/main/java/com/taosha/studyspringboot/StudySpringBootApplication.java">
+      <file leaf-file-name="CarFactoryBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/CarFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="836">
+              <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/replacedMethod/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZkClientProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studyzookeeper/src/main/java/com/taosha/studyZooKeeper/config/properties/ZkClientProperties.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientCnxn.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar!/org/apache/zookeeper/ClientCnxn.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15124">
-              <caret line="892" column="41" lean-forward="false" selection-start-line="892" selection-start-column="41" selection-end-line="892" selection-end-column="41" />
-              <folding>
-                <marker date="1565222391871" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1565222391871" expanded="false" signature="144:2821" ph="..." />
-                <marker date="1565222391871" expanded="false" signature="4201:4212" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="4234:4240" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="4278:4289" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="4315:4321" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="4357:4368" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="4405:4411" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="4442:5285" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="5501:5635" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="5870:6802" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="6856:6867" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6896:6902" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="6962:6973" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6999:7005" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="7031:7105" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="7163:7287" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="7340:7709" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="7763:8227" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="8258:8269" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="8290:8296" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="8327:8563" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="8608:9062" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="9100:9111" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="9129:9135" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="9289:9646" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="9677:9688" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="9740:9746" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="9857:10228" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="10434:11186" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="11244:11579" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="11602:11613" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="11631:11637" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="11650:11857" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="11904:37518" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="12551:16999" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="17055:17272" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="17301:17316" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="17345:17355" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="17403:17418" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="17447:17457" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="17509:21711" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="21776:22370" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="22404:22704" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="22761:24083" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="24146:24435" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="24463:31706" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="31785:33646" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="33679:34597" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="34728:36697" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="36720:36830" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="36886:36954" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="37020:37379" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="37452:37512" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="37588:37755" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="37713:37728" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="37739:37749" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="37826:37997" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="37955:37970" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="37981:37991" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="38068:38237" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="38195:38210" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="38221:38231" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="38297:38576" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="38423:38438" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="38449:38459" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="38493:38508" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="38560:38570" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="38624:47840" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="38881:39118" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="39171:39576" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="39636:40097" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="40138:40153" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="40206:40216" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="40244:41325" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="41375:47834" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="47887:48142" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="48055:48136" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="48168:50765" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="48656:48758" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="48917:49188" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="49221:50208" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="50243:50759" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="50793:50966" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="50885:50960" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateMode.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar!/org/apache/zookeeper/CreateMode.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <marker date="1565222391871" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1565222391871" expanded="false" signature="144:260" ph="..." />
-                <marker date="1565222391871" expanded="true" signature="675:782" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="816:827" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="849:855" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="890:901" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="924:930" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="955:966" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="983:989" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="1062:1514" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stat.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar!/org/apache/zookeeper/data/Stat.class">
+      <file leaf-file-name="ApplicationContext.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <marker date="1565222391871" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1565222391871" expanded="false" signature="149:494" ph="..." />
-                <marker date="1565222391871" expanded="true" signature="840:847" ph="{}" />
-                <marker date="1565222391871" expanded="true" signature="1020:1391" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="1419:1430" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="1448:1454" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="1489:1500" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="1516:1522" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="1550:1561" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="1579:1585" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="1620:1631" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="1647:1653" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="1681:1692" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="1710:1716" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="1751:1762" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="1778:1784" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="1812:1823" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="1841:1847" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="1882:1893" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="1909:1915" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="1944:1955" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="1975:1981" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2017:2028" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2046:2052" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2082:2093" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2114:2120" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2157:2168" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2187:2193" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2223:2234" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2255:2261" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2298:2309" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2328:2334" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2371:2382" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2409:2415" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2459:2470" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2495:2501" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2533:2544" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2567:2573" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2612:2623" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2644:2650" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2683:2694" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2718:2724" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2764:2775" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2797:2803" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2831:2842" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2860:2866" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="2901:2912" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2928:2934" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="3011:3610" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="3688:4275" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="4306:5261" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="5320:5432" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="5494:5605" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="5672:8877" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="8919:11577" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="11605:12549" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="12587:12598" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="12626:12632" ph=" }" />
-              </folding>
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeeperException.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar!/org/apache/zookeeper/KeeperException.class">
+      <file leaf-file-name="circularDependency.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/circularDependency.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding>
-                <marker date="1565222391871" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1565222391871" expanded="false" signature="144:288" ph="..." />
-                <marker date="1565222391871" expanded="true" signature="530:620" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="626:644" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="725:841" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="847:865" ph="/**...*/" />
-                <marker date="1565222391871" expanded="false" signature="932:943" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="989:995" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="1065:3144" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="3150:3168" ph="/**...*/" />
-                <marker date="1565222391871" expanded="false" signature="3218:3229" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="3272:3278" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="3340:4828" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="4883:4894" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="4911:4917" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="4979:5038" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="5044:5062" ph="/**...*/" />
-                <marker date="1565222391871" expanded="false" signature="5103:5114" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="5136:5142" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="5182:5193" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="5210:5216" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="5245:5256" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="5273:5279" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="5312:5477" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="5527:5538" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="5561:5567" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="5607:5618" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="5683:5689" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="5762:5876" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="5803:5818" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="5860:5870" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="5947:6057" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="5986:6001" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6041:6051" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="6128:6238" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="6167:6182" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6222:6232" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="6310:6422" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="6350:6365" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6406:6416" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="6496:6612" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="6538:6553" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6596:6606" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="6692:6820" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="6740:6755" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6804:6814" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="6896:7016" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="6940:6955" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="7000:7010" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="7084:7303" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="7120:7135" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="7172:7182" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="7229:7244" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="7287:7297" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="7369:7580" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="7403:7418" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="7453:7463" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="7508:7523" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="7564:7574" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="7650:7877" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="7688:7703" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="7742:7752" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="7801:7816" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="7861:7871" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="7960:8239" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="8011:8026" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="8078:8088" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="8151:8233" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="8305:8405" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="8339:8354" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="8389:8399" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="8481:8601" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="8525:8540" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="8585:8595" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="8676:8794" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="8719:8734" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="8778:8788" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="8864:9091" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="8902:8917" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="8956:8966" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="9015:9030" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="9075:9085" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="9168:9290" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="9213:9228" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="9274:9284" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="9364:9480" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="9406:9421" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="9464:9474" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="9550:9777" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="9588:9603" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="9642:9652" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="9701:9716" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="9761:9771" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="9849:10084" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="9889:9904" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="9945:9955" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="10006:10021" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="10068:10078" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="10154:10262" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="10192:10207" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="10246:10256" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="10330:10434" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="10366:10381" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="10418:10428" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="10506:11778" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="11257:11272" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="11289:11299" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="11330:11345" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="11362:11372" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="11430:11445" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="11491:11501" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="11518:11772" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="11784:11802" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="11855:13444" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="11865:11883" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="11932:11950" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12009:12027" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12095:12113" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12178:12196" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12258:12276" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12340:12358" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12419:12437" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12501:12519" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12579:12597" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12655:12673" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12729:12747" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12803:12821" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12881:12899" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="12972:12990" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="13050:13068" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="13126:13144" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="13208:13226" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="13291:13309" ph="/**...*/" />
-                <marker date="1565222391871" expanded="true" signature="13369:13387" ph="/**...*/" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZooKeeper.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar!/org/apache/zookeeper/ZooKeeper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9861">
-              <caret line="588" column="24" lean-forward="false" selection-start-line="588" selection-start-column="24" selection-end-line="588" selection-end-column="24" />
-              <folding>
-                <marker date="1565222391871" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1565222391871" expanded="false" signature="144:2581" ph="..." />
-                <marker date="1565222391871" expanded="false" signature="2921:2932" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="2969:2975" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="3011:3190" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="3227:3408" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="3445:3626" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="3727:3795" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="3919:4599" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="4738:4832" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="4994:5861" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="5893:5904" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="5936:5942" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="5980:5991" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6027:6033" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="6069:6080" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6117:6123" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="6180:6191" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6227:6233" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="6289:6300" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="6343:6349" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="6416:7108" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="7162:7375" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="7511:8471" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="8591:9200" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="9296:9927" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="10024:10244" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="10316:10606" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="10666:11720" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="11800:12080" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="12119:12374" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="12471:12746" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="12868:13960" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="13998:14009" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="14038:14044" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="14124:14672" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="14772:15706" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="15804:15894" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="15978:16603" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="16685:16777" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="16891:17763" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="17875:17972" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="18057:18682" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="18765:18858" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="18968:19627" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="19721:20241" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="20340:21034" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="21111:21559" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="21670:22481" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="22576:23090" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="23203:23988" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="24099:24194" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="24287:24929" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="25020:25117" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="25241:26139" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="26261:26362" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="26456:27103" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="27195:27292" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="27357:27797" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="27837:27848" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="27876:27882" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="27913:28103" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="28189:28447" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="28507:28598" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="28657:28747" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="28826:29346" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="29359:29422" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="29454:29867" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="29629:29640" ph="{}" />
-                <marker date="1565222391871" expanded="false" signature="29674:29689" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="29734:29744" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="29782:29797" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="29851:29861" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="29938:30208" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="30013:30028" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="30055:30065" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="30129:30144" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="30192:30202" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="30278:30546" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="30352:30367" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="30394:30404" ph=" }" />
-                <marker date="1565222391871" expanded="false" signature="30468:30483" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="30530:30540" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="30618:31063" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="30694:30709" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="30736:30746" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="30811:30935" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="30985:31000" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="31047:31057" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="31102:32057" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="31242:31331" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="31446:31961" ph="{...}" />
-                <marker date="1565222391871" expanded="false" signature="32011:32026" ph=" { " />
-                <marker date="1565222391871" expanded="false" signature="32041:32051" ph=" }" />
-                <marker date="1565222391871" expanded="true" signature="32129:36516" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="32399:32550" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="32621:32712" ph="{...}" />
-                <marker date="1565222391871" expanded="true" signature="32808:36510" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudyZooKeeperApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studyzookeeper/src/main/java/com/taosha/studyZooKeeper/StudyZooKeeperApplication.java">
+      <file leaf-file-name="definitionParser.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/definitionParser.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-              </folding>
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <file leaf-file-name="lookupTest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/lookupTest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="replacemethod.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/replacemethod.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carFactory.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/carFactory.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -531,6 +160,7 @@
       <find>parseInternal</find>
       <find>singletonA-singleton</find>
       <find>NodeDataChanged</find>
+      <find>blockHeaderPoSynchronizedList</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -549,11 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/lookupMethod/bean/Pepole.java" />
-        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/lookupMethod/bean/Teacher.java" />
-        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/lookupMethod/bean/GetBeanTest.java" />
-        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/lookupMethod/bean/AbstractBeanTest.java" />
-        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/lookupMethod/Main.java" />
         <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/replacedMethod/bean/ChangeMethod.java" />
         <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/replacedMethod/bean/ChangeMethodReplacer.java" />
         <option value="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/replacemethod.xml" />
@@ -600,6 +225,11 @@
         <option value="$PROJECT_DIR$/studyzookeeper/src/test/java/com/taosha/studyZooKeeper/studyZooKeeperApplicationTests.java" />
         <option value="$PROJECT_DIR$/studyzookeeper/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/studyzookeeper/src/main/java/com/taosha/studyZooKeeper/zkService/ZkService.java" />
+        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Car.java" />
+        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/bean/Car.java" />
+        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/CarFactoryBean.java" />
+        <option value="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/carFactory.xml" />
+        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Main.java" />
       </list>
     </option>
   </component>
@@ -628,7 +258,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="299" />
+    <option name="x" value="115" />
     <option name="y" value="23" />
     <option name="width" value="1377" />
     <option name="height" value="872" />
@@ -681,103 +311,94 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="taosha" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="taosha" type="462c0819:PsiDirectoryNode" />
-              <item name="studyZooKeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryBean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="taosha" type="462c0819:PsiDirectoryNode" />
-              <item name="studyZooKeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryBean" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="taosha" type="462c0819:PsiDirectoryNode" />
-              <item name="studyZooKeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
+              <item name="replacedMethod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="taosha" type="462c0819:PsiDirectoryNode" />
-              <item name="studyZooKeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zkService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyzookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studySpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -805,18 +426,9 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
-      <recent name="$PROJECT_DIR$/studyGit" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.taosha.studyZooKeeper" />
       <recent name="taosha" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="taosha.config" />
-      <recent name="com.taosha" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/studyzookeeper1/src/main/java/com/taosha" />
@@ -824,6 +436,16 @@
       <recent name="$PROJECT_DIR$/studySpring" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/studySpring/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="taosha.factoryBean" />
+      <recent name="" />
+      <recent name="taosha.config" />
+      <recent name="com.taosha" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
+      <recent name="$PROJECT_DIR$/studyGit" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -838,13 +460,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StudyZooKeeperApplication">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="taosha.factoryBean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="taosha.factoryBean.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="studySpring" />
+      <envs />
     </configuration>
     <configuration name="StudyZooKeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -897,31 +538,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="BaseSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="taosha.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="studyZooKeeper" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="taosha" />
-      <option name="MAIN_CLASS_NAME" value="taosha.BaseSpringTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="BaseSpringTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1049,18 +665,18 @@
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.StudySpringBootApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Studyzookeeper1Application" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BaseSpringTest.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BaseSpringTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StudyZooKeeper" />
-      <item index="5" class="java.lang.String" itemvalue="Application.StudyZooKeeperApplication" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.studyZooKeeperApplicationTests.contextLoads" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StudyZooKeeper" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StudyZooKeeperApplication" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.studyZooKeeperApplicationTests.contextLoads" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StudyZooKeeperApplication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.studyZooKeeperApplicationTests.contextLoads" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StudyZooKeeper" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BaseSpringTest.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BaseSpringTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StudyZooKeeperApplication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.studyZooKeeperApplicationTests.contextLoads" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StudyZooKeeper" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BaseSpringTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -1091,7 +707,7 @@
       <workItem from="1565315161190" duration="11676000" />
       <workItem from="1565422179505" duration="14892000" />
       <workItem from="1565566707159" duration="1108000" />
-      <workItem from="1565608524609" duration="673000" />
+      <workItem from="1565608524609" duration="2072000" />
     </task>
     <servers />
   </component>
@@ -1128,26 +744,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55282000" />
+    <option name="totallyTimeSpent" value="56681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="23" width="1377" height="872" extended-state="0" />
+    <frame x="115" y="23" width="1377" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07865169" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27320954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27320954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18700266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18700266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26891387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24194756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13438736" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1160,7 +777,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32625994" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1235,60 +851,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/circularDependency/bean.java" />
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/replacedMethod/bean/ChangeMethodReplacer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/replacedMethod/bean/ChangeMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/definitionParser/StudySpring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/replacedMethod/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/lookupTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1303,13 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/definitionParser.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1341,13 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/circularDependency.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="11" lean-forward="false" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studyGit/git.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1376,6 +928,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="36" column="19" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="36" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
@@ -1506,8 +1059,8 @@
         <state relative-caret-position="171">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#330#331#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1962,11 +1515,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/studyzookeeper/src/main/java/com/taosha/studyZooKeeper/zkService/ZkService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="220">
+          <caret line="65" column="16" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/definitionParser.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/lookupTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/replacemethod.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/bean/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="31" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/replacedMethod/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/circularDependency.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/carFactory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/CarFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
