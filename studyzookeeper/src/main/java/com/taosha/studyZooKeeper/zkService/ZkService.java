@@ -22,7 +22,7 @@ import java.util.concurrent.CountDownLatch;
 public class ZkService implements Watcher {
 
     private ZooKeeper zooKeeper ;
-    private static CountDownLatch latch = new CountDownLatch(1);
+    private static final CountDownLatch LATCH = new CountDownLatch(1);
 
     @Autowired
     ZkClientProperties zkClientProperties;
@@ -55,9 +55,14 @@ public class ZkService implements Watcher {
     public void process(WatchedEvent watchedEvent) {
         System.out.println("监听启动 : " + watchedEvent);
         if (watchedEvent.getState() == Event.KeeperState.SyncConnected){
-            latch.countDown();
+            LATCH.countDown();
         }
-
+        try {
+            LATCH.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        
         switch (watchedEvent.getType()){
             case None:
                 System.out.println("None");
