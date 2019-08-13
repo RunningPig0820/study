@@ -1,23 +1,24 @@
-package com.taosha.summaryframework.customException;
+package com.taosha.summaryframework.commonResult;
 
-import com.taosha.summaryframework.customException.enums.ErrorMsgEnum;
+import com.taosha.summaryframework.common.StatusEnum;
+import com.taosha.summaryframework.commonResult.bean.CommonResult;
+import com.taosha.summaryframework.commonResult.enums.ErrorMsgEnum;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
-import org.slf4j.event.Level;
 
 import java.util.Arrays;
-import java.util.Objects;
 
 
 /**
- * @Description : 自定义异常类
+ * @Description : 返回处理类
  * @Author : zhangmin
  * @Data 2019-07-15 5:50 PM
  **/
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class ServiceException extends RuntimeException {
+public class ServiceException extends RuntimeException{
     @Getter
     private String errCode;
 
@@ -68,11 +69,13 @@ public class ServiceException extends RuntimeException {
         this.errMsg = message;
     }
 
-    public static ServiceException fromEnum(ErrorMsgEnum errorMsgEnum) {
-        return new ServiceException(errorMsgEnum);
+    public static ServiceException fromEnum(ErrorMsgEnum errorKey) {
+        return new ServiceException(errorKey);
     }
 
-    public static ServiceException fromEnum(ErrorMsgEnum errorMsgEnum, String... arg) {
-        return new ServiceException(errorMsgEnum,arg);
+    public static ServiceException fromEnum(ErrorMsgEnum errorKey, String... args) {
+        return new ServiceException(errorKey,args);
     }
 }
+
+
