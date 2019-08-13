@@ -9,6 +9,7 @@
         <module name="studySpring" />
         <module name="studySpringBoot" />
         <module name="studyzookeeper" />
+        <module name="studyZooKeeper" />
         <module name="studyzookeeper1" />
         <module name="summaryFramework" />
       </profile>
@@ -17,7 +18,7 @@
       <module name="studySpring" target="1.6" />
       <module name="studySpringBoot" target="1.8" />
       <module name="studyzookeeper" target="1.8" />
-      <module name="studyZooKeeper" target="1.5" />
+      <module name="studyZooKeeper" target="1.8" />
       <module name="studyzookeeper1" target="1.8" />
       <module name="summaryFramework" target="1.8" />
     </bytecodeTargetLevel>
