@@ -1,5 +1,6 @@
 package com.taosha.summaryframework.verify.bean;
 
+import com.taosha.summaryframework.verify.annotations.Encrypt;
 import com.taosha.summaryframework.verify.common.Regexes;
 import lombok.Data;
 
@@ -25,12 +26,10 @@ public class People {
     private Integer age;
 
     @NotNull(message = "idCard 字段为空")
+    @Encrypt
     private String idCard;
 
     @NotNull(message = "mobile 字段为空")
     @Pattern(regexp = Regexes.MOBILE, message = "手机号码或邮箱格式错误")
     private String mobile;
-
-
-
 }
