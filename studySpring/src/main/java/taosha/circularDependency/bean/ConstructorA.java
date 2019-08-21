@@ -14,5 +14,4 @@ public class ConstructorA {
     public ConstructorB getConstructorB() {
         return constructorB;
     }
-
 }

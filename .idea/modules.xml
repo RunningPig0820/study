@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/study.iml" filepath="$PROJECT_DIR$/.idea/study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyDruid/studyDruid.iml" filepath="$PROJECT_DIR$/studyDruid/studyDruid.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyGit/studyGit.iml" filepath="$PROJECT_DIR$/studyGit/studyGit.iml" />
       <module fileurl="file://$PROJECT_DIR$/studySpring/studySpring.iml" filepath="$PROJECT_DIR$/studySpring/studySpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/studySpringBoot/studySpringBoot.iml" filepath="$PROJECT_DIR$/studySpringBoot/studySpringBoot.iml" />
