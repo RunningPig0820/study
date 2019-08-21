@@ -1,13 +1,18 @@
 package com.taosha.studydruid;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author zhangmin
+ */
 @SpringBootApplication
-public class StudydruidApplication {
+@MapperScan("com.taosha.studydruid.dao")
+public class StudyDruidApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudydruidApplication.class, args);
+		SpringApplication.run(StudyDruidApplication.class, args);
 	}
 
 }

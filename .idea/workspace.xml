@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e162205d-e254-4444-83d4-4ccf1759e71d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/DruidConfiguration.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/controller/DaoController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/summaryFramework/src/main/resources/db/data.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/summaryFramework/src/main/resources/db/schema.sql" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/bean/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/configuration/DruidDbConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/configuration/MultiDataSourceConfigurer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao/UserDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studyDruid/src/main/resources/mapping/user.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/studySpring/src/main/java/taosha/circularDependency/bean/ConstructorA.java" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/circularDependency/bean/ConstructorA.java" />
-      <change beforePath="$PROJECT_DIR$/summaryFramework/pom.xml" afterPath="$PROJECT_DIR$/summaryFramework/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/BaseDaoConfiguration.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/UserDaoConfiguration.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/dao/UserDao.java" afterPath="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/dao/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/summaryFramework/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/summaryFramework/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/studyDruid/pom.xml" afterPath="$PROJECT_DIR$/studyDruid/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/StudydruidApplication.java" afterPath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/StudyDruidApplication.java" />
+      <change beforePath="$PROJECT_DIR$/studyDruid/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/studyDruid/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/studyDruid/src/test/java/com/taosha/studydruid/StudydruidApplicationTests.java" afterPath="$PROJECT_DIR$/studyDruid/src/test/java/com/taosha/studydruid/StudyDruidApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/studySpring/target/" />
     <ignored path="$PROJECT_DIR$/studyZooKeeper/target/" />
@@ -49,66 +46,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/dao/UserDao.java">
+      <file leaf-file-name="DruidController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <element signature="method#getUser#0;class#UserDao#0" expanded="false" />
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#1368#1369#0" expanded="true" />
-                <element signature="e#1426#1427#0" expanded="true" />
-                <element signature="e#1461#1462#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="38" column="90" lean-forward="false" selection-start-line="38" selection-start-column="90" selection-end-line="38" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DruidConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/DruidConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyDruid/src/main/resources/mapping/user.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <marker date="1566389218399" expanded="true" signature="662:734" ph="insert into t_user... " />
+                <marker date="1566389218399" expanded="true" signature="823:856" ph="delete from t_user... " />
+                <marker date="1566389218399" expanded="true" signature="961:1340" ph="update t_user... " />
+                <marker date="1566389218399" expanded="true" signature="1453:1540" ph="select from t_user" />
+                <marker date="1566389218399" expanded="true" signature="1622:1692" ph="select from t_user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/bean/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/studyDruid/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyDruid/target/classes/mapper/user.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1566389926202" expanded="true" signature="662:734" ph="insert into t_user... " />
+                <marker date="1566389926202" expanded="true" signature="823:856" ph="delete from t_user... " />
+                <marker date="1566389926202" expanded="true" signature="961:1340" ph="update t_user... " />
+                <marker date="1566389926202" expanded="true" signature="1453:1540" ph="select from t_user" />
+                <marker date="1566389926202" expanded="true" signature="1622:1692" ph="select from t_user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudyDruidApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyDruid/src/test/java/com/taosha/studydruid/StudyDruidApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studyZooKeeper/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/studyDruid/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="249">
+              <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -117,235 +149,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/summaryFramework/pom.xml">
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="116" column="33" lean-forward="false" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
+            <state relative-caret-position="188">
+              <caret line="750" column="0" lean-forward="true" selection-start-line="750" selection-start-column="0" selection-end-line="750" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcTemplate.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.9.RELEASE/spring-jdbc-5.1.9.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-              <folding>
-                <marker date="1565838577665" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1565838577665" expanded="false" signature="153:1580" ph="..." />
-                <marker date="1565838577665" expanded="true" signature="2135:2142" ph="{}" />
-                <marker date="1565838577665" expanded="true" signature="2191:2273" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="2340:2458" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="2517:2528" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="2565:2571" ph=" }" />
-                <marker date="1565838577665" expanded="false" signature="2610:2621" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="2648:2654" ph=" }" />
-                <marker date="1565838577665" expanded="false" signature="2699:2710" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="2737:2743" ph=" }" />
-                <marker date="1565838577665" expanded="false" signature="2774:2785" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="2807:2813" ph=" }" />
-                <marker date="1565838577665" expanded="false" signature="2854:2865" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="2888:2894" ph=" }" />
-                <marker date="1565838577665" expanded="false" signature="2923:2934" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="2954:2960" ph=" }" />
-                <marker date="1565838577665" expanded="false" signature="3011:3022" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="3055:3061" ph=" }" />
-                <marker date="1565838577665" expanded="false" signature="3095:3106" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="3131:3137" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="3211:3278" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="3324:3335" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="3369:3375" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="3449:3516" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="3562:3573" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="3607:3613" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="3695:3770" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="3820:3831" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="3869:3875" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="3973:4666" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="4731:4922" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="5019:5942" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="6013:6638" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="6231:6556" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="6272:6287" ph="{}" />
-                <marker date="1565838577665" expanded="true" signature="6387:6466" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="6502:6521" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="6532:6546" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="6755:7736" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="7083:7649" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="7122:7137" ph="{}" />
-                <marker date="1565838577665" expanded="true" signature="7232:7559" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="7595:7614" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="7625:7639" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="7823:7945" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="8039:8166" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="8250:8341" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="8452:8575" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="8685:8778" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="8877:8960" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="9051:9120" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="9197:9320" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="9389:10264" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="9657:10154" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="9697:9712" ph="{}" />
-                <marker date="1565838577665" expanded="true" signature="9791:10064" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="10100:10119" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="10130:10144" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="10343:13113" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="10647:12924" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="10751:10766" ph="{}" />
-                <marker date="1565838577665" expanded="true" signature="10864:12618" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="12698:12803" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="12861:12880" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="12900:12914" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="13248:14756" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="14873:15026" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="15200:16104" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="15362:15507" ph="doInPreparedStatement(ps) → {" />
-                <marker date="1565838577665" expanded="false" signature="16081:16096" ph="}" />
-                <marker date="1565838577665" expanded="true" signature="16227:16348" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="16492:16663" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="16799:16899" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="17029:17115" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="17246:17332" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="17437:17577" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="17703:17855" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="17973:18066" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="18168:18247" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="18360:18439" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="18551:18696" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="18829:18986" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="19111:19246" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="19365:19508" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="19628:19771" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="19913:20116" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="20252:20463" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="20600:20811" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="20952:21061" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="21172:21271" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="21393:21492" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="21607:21714" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="21824:21921" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="22051:22150" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="22264:22353" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="22478:22567" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="22689:22774" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="22891:22966" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="23074:23205" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="23308:23447" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="23570:24283" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="23694:24274" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="24364:24435" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="24546:25605" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="24764:25596" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="25707:25854" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="25948:26044" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="26133:26215" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="26319:28430" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="26507:28342" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="28526:28594" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="28718:30046" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="28827:30038" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="28912:29932" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="29971:29990" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="30014:30028" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="30207:32288" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="30433:32200" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="32423:33923" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="34047:34207" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="34341:35933" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="35121:35847" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="36153:38616" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="38749:40636" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="40772:42014" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="42084:42095" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="42127:42133" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="42214:42277" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="42332:42452" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="42532:42877" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="42972:43037" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="43142:43221" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="43293:43840" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="43933:44056" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="44163:44364" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="44433:44536" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="44590:44671" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="44734:44821" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="44923:45304" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="45047:45062" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="45077:45087" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="45175:45298" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="45411:45890" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="45520:45645" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="45740:45804" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="45836:45851" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="45874:45884" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="45997:46424" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="46092:46188" ph="{...}" />
-                <marker date="1565838577665" expanded="true" signature="46283:46345" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="46377:46392" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="46408:46418" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="46507:48255" ph="{...}" />
-                <marker date="1565838577665" expanded="false" signature="46618:46633" ph=" { " />
-                <marker date="1565838577665" expanded="false" signature="46654:46664" ph=" }" />
-                <marker date="1565838577665" expanded="true" signature="46774:48249" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/javax/sql/DataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/dao/AbstractDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/utils/JdbcUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="280" column="24" lean-forward="false" selection-start-line="280" selection-start-column="24" selection-end-line="280" selection-end-column="24" />
-              <folding>
-                <element signature="method#JdbcUtils#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getSelect#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getSelectForCount#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getSelectForSum#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getInsert#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getInsertIgnore#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getInsert#1;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getNamedInsert#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getNamedUpdate#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getInsertSql#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getInsertParam#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getUpdate#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#printEntityToDbMap#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getWhereClause#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#transferEntityToDbMap#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getTimeSpanJdbcResult#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="method#getPagingJdbcResult#0;class#JdbcUtils#0" expanded="false" />
-                <element signature="class#JdbcResult#0;class#JdbcUtils#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -364,13 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>blockHeaderPoSynchronizedList</find>
-      <find>String errorKey</find>
-      <find>spring-boot-starter-tes</find>
-      <find>context</find>
-      <find>RequestMapping</find>
-      <find>stackTrace</find>
-      <find>missing.servlet.request.parameter</find>
       <find>bad.request</find>
       <find>param.unrecognized</find>
       <find>,&quot;500</find>
@@ -391,9 +193,16 @@
       <find>var</find>
       <find>while</find>
       <find>aspect</find>
-      <find>:</find>
       <find>druid</find>
       <find>DataSource</find>
+      <find>:</find>
+      <find>com.mysql.cj.jdbc.Driver</find>
+      <find>Invalid bound Invalid bound statement</find>
+      <find>addUser</find>
+      <find>deleteUserById</find>
+      <find>updateUserById</find>
+      <find>queryUserById</find>
+      <find>queryUserList</find>
     </findStrings>
     <replaceStrings>
       <replace>),</replace>
@@ -417,20 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/controller/VerifyController.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customException/utils/CommonValid.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customException/CommonServiceException.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customException/handler/CommonExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customException/enums/ErrorMsgEnum.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/bean/CommonResult.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/commonResult/CommonServiceException.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/commonResult/bean/CommonResult.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/common/StatusEnum.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/commonResult/utils/CommonValid.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/commonResult/ResultUtils.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/commonResult/ServiceException.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/commonResult/enums/ErrorMsgEnum.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/commonResult/utils/ResultUtils.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/commonResult/utils/RequestIpExtractor.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/commonResult/handler/CommonExceptionHandler.java" />
         <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Main.java" />
@@ -454,20 +249,34 @@
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/annotation/FieldName.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/entity/BaseEntity.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/entity/User.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/BaseDaoConfiguration.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/README.md" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/utils/MoxieBeanUtils.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/utils/JdbcUtils.java" />
         <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/circularDependency/bean/ConstructorA.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/controller/DaoController.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/summaryFramework/pom.xml" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/DruidConfiguration.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/UserDaoConfiguration.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/configuration/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/summaryFramework/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/summaryFramework/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/summaryFramework/README.md" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/User.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/resources/user.xml" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/bean/User.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/controller/DruidController.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/configuration/DruidDbConfig.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/StudydruidApplication.java" />
         <option value="$PROJECT_DIR$/studyDruid/pom.xml" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/StudyDruidApplication.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/test/java/com/taosha/studydruid/StudyDruidApplicationTests.java" />
+        <option value="$PROJECT_DIR$/studyDruid/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -486,15 +295,20 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="studydruid" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="30" />
-    <option name="width" value="991" />
-    <option name="height" value="828" />
+    <option name="x" value="178" />
+    <option name="y" value="34" />
+    <option name="width" value="1308" />
+    <option name="height" value="755" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -550,6 +364,258 @@
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+              <item name="studydruid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+              <item name="studydruid" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+              <item name="studydruid" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+              <item name="studydruid" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyDruid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+              <item name="studydruid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryframework" type="462c0819:PsiDirectoryNode" />
+              <item name="commonResult" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="taosha" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryframework" type="462c0819:PsiDirectoryNode" />
+              <item name="verify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -579,11 +645,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.taosha.studydruid" />
       <recent name="db" />
       <recent name="" />
       <recent name="com.taosha.summaryframework.customException" />
       <recent name="com.taosha.summaryframework.verify" />
-      <recent name="com.taosha.summaryframework" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources/db" />
@@ -593,13 +659,15 @@
       <recent name="$PROJECT_DIR$/studyzookeeper1/src/main/java/com/taosha" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.taosha.controller" />
+      <recent name="com.taosha.configuration" />
       <recent name="com.taosha.summaryframework.customData.enums" />
       <recent name="com.taosha.summaryframework.customData.entity" />
       <recent name="com.taosha.summaryframework.customException.constants" />
-      <recent name="taosha.factoryBean" />
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/studyDruid/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao" />
       <recent name="$PROJECT_DIR$/summaryFramework/src/main/resources/db" />
       <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
       <recent name="$PROJECT_DIR$/studyGit" />
@@ -617,7 +685,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SummaryFrameworkApplication">
+  <component name="RunManager" selected="Spring Boot.StudydruidApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -787,7 +855,7 @@
     </configuration>
     <configuration name="StudydruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taosha.studydruid.StudydruidApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taosha.studydruid.StudyDruidApplication" />
       <module name="studyDruid" />
       <envs />
     </configuration>
@@ -893,7 +961,7 @@
       <workItem from="1565855399135" duration="2548000" />
       <workItem from="1566094409312" duration="208000" />
       <workItem from="1566202398371" duration="1354000" />
-      <workItem from="1566265275541" duration="5610000" />
+      <workItem from="1566265275541" duration="13100000" />
     </task>
     <servers />
   </component>
@@ -930,14 +998,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125653000" />
+    <option name="totallyTimeSpent" value="133143000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="30" width="991" height="828" extended-state="0" />
+    <frame x="178" y="34" width="1308" height="755" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028169014" sideWeight="0.5036881" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37519622" sideWeight="0.17456555" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12954186" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13438736" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -945,7 +1014,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24936171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2521127" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.48973143" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676056" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -953,13 +1022,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17323944" sideWeight="0.8697711" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37362638" sideWeight="0.82543445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23239437" sideWeight="0.79479086" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28345627" sideWeight="0.92753625" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1973165" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28345627" sideWeight="0.072463766" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028169014" sideWeight="0.4963119" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28728414" sideWeight="0.7772512" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24012639" sideWeight="0.85427135" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14770932" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24012639" sideWeight="0.14572865" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.288854" sideWeight="0.48341233" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26279527" sideWeight="0.5073069" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -973,17 +1042,17 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16056338" sideWeight="0.12510638" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03319149" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37519622" sideWeight="0.17456555" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12954186" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13438736" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24936171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.032394364" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.48973143" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676056" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -991,16 +1060,16 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253521" sideWeight="0.8748936" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2577465" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15352112" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37519622" sideWeight="0.82543445" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28728414" sideWeight="0.7772512" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24012639" sideWeight="0.85427135" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14770932" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24012639" sideWeight="0.14572865" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.288854" sideWeight="0.48341233" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26279527" sideWeight="0.5073069" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1073,8 +1142,14 @@
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1083,115 +1158,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/studyGit/git.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1166">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpringBoot/src/main/java/com/taosha/studyspringboot/StudySpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/common/StatusEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.9.RELEASE/spring-tx-5.1.9.RELEASE.jar!/org/springframework/transaction/annotation/EnableTransactionManagement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/BeanClassLoaderAware.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/javax/naming/spi/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/annotation/SensitiveField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/utils/MoxieBeanUtils.java" />
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/circularDependency/bean/PropertyA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/circularDependency/bean/PropertyB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/circularDependency/bean/ConstructorA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/circularDependency.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/circularDependency/bean/ConstructorB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1204,17 +1170,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="38">
             <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summaryFramework/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1327,14 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summaryFramework/src/test/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/resources/db/data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1355,11 +1302,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#623#624#0" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,26 +1334,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="280" column="24" lean-forward="false" selection-start-line="280" selection-start-column="24" selection-end-line="280" selection-end-column="24" />
-          <folding>
-            <element signature="method#JdbcUtils#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getSelect#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getSelectForCount#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getSelectForSum#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getInsert#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getInsertIgnore#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getInsert#1;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getNamedInsert#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getNamedUpdate#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getInsertSql#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getInsertParam#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getUpdate#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#printEntityToDbMap#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getWhereClause#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#transferEntityToDbMap#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getTimeSpanJdbcResult#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="method#getPagingJdbcResult#0;class#JdbcUtils#0" expanded="false" />
-            <element signature="class#JdbcResult#0;class#JdbcUtils#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,10 +1342,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
           <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1599,25 +1520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="38" column="90" lean-forward="false" selection-start-line="38" selection-start-column="90" selection-end-line="38" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summaryFramework/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="116" column="33" lean-forward="false" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/UserDaoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
@@ -1638,13 +1540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="method#getUser#0;class#UserDao#0" expanded="false" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1652,13 +1548,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1673,15 +1563,234 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studyDruid/pom.xml">
+    <entry file="file://$PROJECT_DIR$/summaryFramework/src/test/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summaryFramework/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/configuration/DruidConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summaryFramework/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="158">
+            <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE.jar!/org/springframework/boot/web/servlet/ServletRegistrationBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <marker date="1565422957890" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1565422957890" expanded="false" signature="160:552" ph="..." />
+            <marker date="1565422957890" expanded="true" signature="941:1063" ph="{...}" />
+            <marker date="1565422957890" expanded="false" signature="1133:1144" ph=" { " />
+            <marker date="1565422957890" expanded="false" signature="1177:1183" ph=" }" />
+            <marker date="1565422957890" expanded="true" signature="1276:1663" ph="{...}" />
+            <marker date="1565422957890" expanded="true" signature="1703:1803" ph="{...}" />
+            <marker date="1565422957890" expanded="false" signature="1830:1841" ph=" { " />
+            <marker date="1565422957890" expanded="false" signature="1861:1867" ph=" }" />
+            <marker date="1565422957890" expanded="true" signature="1932:2067" ph="{...}" />
+            <marker date="1565422957890" expanded="false" signature="2115:2126" ph=" { " />
+            <marker date="1565422957890" expanded="false" signature="2150:2156" ph=" }" />
+            <marker date="1565422957890" expanded="true" signature="2212:2349" ph="{...}" />
+            <marker date="1565422957890" expanded="false" signature="2402:2413" ph=" { " />
+            <marker date="1565422957890" expanded="false" signature="2448:2454" ph=" }" />
+            <marker date="1565422957890" expanded="false" signature="2530:2541" ph=" { " />
+            <marker date="1565422957890" expanded="false" signature="2580:2586" ph=" }" />
+            <marker date="1565422957890" expanded="false" signature="2642:2653" ph=" { " />
+            <marker date="1565422957890" expanded="false" signature="2681:2687" ph=" }" />
+            <marker date="1565422957890" expanded="true" signature="2727:2851" ph="{...}" />
+            <marker date="1565422957890" expanded="true" signature="2942:3056" ph="{...}" />
+            <marker date="1565422957890" expanded="true" signature="3109:3632" ph="{...}" />
+            <marker date="1565422957890" expanded="false" signature="3668:3679" ph=" { " />
+            <marker date="1565422957890" expanded="false" signature="3721:3727" ph=" }" />
+            <marker date="1565422957890" expanded="false" signature="3757:3768" ph=" { " />
+            <marker date="1565422957890" expanded="false" signature="3832:3838" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summaryFramework/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="111" column="24" lean-forward="false" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/configuration/MultiDataSourceConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/configuration/DruidDbConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/StudyDruidApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.0/mybatis-3.4.0.jar!/org/apache/ibatis/annotations/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="750" column="0" lean-forward="true" selection-start-line="750" selection-start-column="0" selection-end-line="750" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/target/classes/mapper/user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1566389926202" expanded="true" signature="662:734" ph="insert into t_user... " />
+            <marker date="1566389926202" expanded="true" signature="823:856" ph="delete from t_user... " />
+            <marker date="1566389926202" expanded="true" signature="961:1340" ph="update t_user... " />
+            <marker date="1566389926202" expanded="true" signature="1453:1540" ph="select from t_user" />
+            <marker date="1566389926202" expanded="true" signature="1622:1692" ph="select from t_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/resources/mapping/user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1566389218399" expanded="true" signature="662:734" ph="insert into t_user... " />
+            <marker date="1566389218399" expanded="true" signature="823:856" ph="delete from t_user... " />
+            <marker date="1566389218399" expanded="true" signature="961:1340" ph="update t_user... " />
+            <marker date="1566389218399" expanded="true" signature="1453:1540" ph="select from t_user" />
+            <marker date="1566389218399" expanded="true" signature="1622:1692" ph="select from t_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/test/java/com/taosha/studydruid/StudyDruidApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
