@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Data 2019-08-13 2:05 PM
  **/
 @RestController
-@RequestMapping(value = "/druid")
+@RequestMapping(value = "/druidController")
 public class DruidController {
 
     @Autowired
