@@ -11,7 +11,7 @@ import java.util.List;
  * @Data 2019-08-21 5:49 PM
  **/
 @Mapper
-public interface UserDao {
+public interface UserMapper {
     int addUser(User user);
 
     int deleteUserById(Long id);

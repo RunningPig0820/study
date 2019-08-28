@@ -1,6 +1,7 @@
 package com.taosha.studydruid.controller;
 
-import com.taosha.studydruid.dao.UserDao;
+import com.taosha.studydruid.dao.ScoreMapper;
+import com.taosha.studydruid.dao.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,10 +17,18 @@ import org.springframework.web.bind.annotation.RestController;
 public class DruidController {
 
     @Autowired
-    UserDao userDao;
+    UserMapper userMapper;
+
+    @Autowired
+    ScoreMapper scoreMapper;
 
     @GetMapping("/get")
     public Object getPeople(){
-        return userDao.queryUserList();
+        return userMapper.queryUserList();
+    }
+
+    @GetMapping("/getScore")
+    public Object getScore(){
+        return scoreMapper.selectByPrimaryKey(1L);
     }
 }

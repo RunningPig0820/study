@@ -30,18 +30,18 @@
         </javaTypeResolver>
 
         <!--model对象及其example对象的位置-->
-        <javaModelGenerator targetPackage="com.taosha.studydruid.bean" targetProject="/src/main/java/com/taosha/studydruid/bean">
+        <javaModelGenerator targetPackage="com.taosha.studydruid.bean" targetProject="src/main/java">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
         <!--xml文件位置-->
-        <sqlMapGenerator targetPackage="mybatis" targetProject="src/main/resources/mapping">
-            <property name="enableSubPackages" value="false"/>
+        <sqlMapGenerator targetPackage="mapping" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
         <!--XXX-Mapper文件位置-->
-        <javaClientGenerator targetPackage="com.kaian.credit.biz.dao.apply" type="XMLMAPPER" targetProject="/src/main/java/com/taosha/studydruid/dao/">
+        <javaClientGenerator targetPackage="com.taosha.studydruid.dao" type="XMLMAPPER" targetProject="src/main/java">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
@@ -60,20 +60,6 @@
 
         </table>
 
-        <!--
-        <table tableName="IMAGE_UPLOAD_CHECK_RULE" domainObjectName="ImageUploadCheckRule">
-            <property name="useActualColumnNames" value="false"/>
-            <property name="ignoreQualifiersAtRuntime" value="true"/>
-        </table>
-        <table tableName="IMAGE_UPLOAD_RECORD" domainObjectName="ImageUploadRecord">
-            <property name="useActualColumnNames" value="false"/>
-            <property name="ignoreQualifiersAtRuntime" value="true"/>
-        </table>
-        <table tableName="IMAGE_VIEW_GROUP" domainObjectName="ImageViewGroup">
-            <property name="useActualColumnNames" value="false"/>
-            <property name="ignoreQualifiersAtRuntime" value="true"/>
-        </table>
-         -->
     </context>
 
 </generatorConfiguration>
