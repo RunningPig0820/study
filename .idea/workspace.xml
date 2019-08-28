@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e162205d-e254-4444-83d4-4ccf1759e71d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java" afterPath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java" />
-      <change beforePath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao/UserDao.java" afterPath="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao/UserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/studyDruid/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/studyDruid/src/main/resources/generatorConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/studyDruid/src/main/resources/mapping/user.xml" afterPath="$PROJECT_DIR$/studyDruid/src/main/resources/mapping/User.xml" />
-    </list>
+    <list default="true" id="e162205d-e254-4444-83d4-4ccf1759e71d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/studySpring/target/" />
     <ignored path="$PROJECT_DIR$/studyZooKeeper/target/" />
     <ignored path="$PROJECT_DIR$/studySpringBoot/target/" />
@@ -43,8 +37,8 @@
       <file leaf-file-name="DruidController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="183">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="e#693#694#0" expanded="true" />
                 <element signature="e#742#743#0" expanded="true" />
@@ -216,7 +210,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="21" />
     <option name="y" value="24" />
     <option name="width" value="1419" />
@@ -783,7 +777,7 @@
       <workItem from="1566821017099" duration="6000" />
       <workItem from="1566885914609" duration="14369000" />
       <workItem from="1566975740338" duration="2070000" />
-      <workItem from="1566977875382" duration="8698000" />
+      <workItem from="1566977875382" duration="9189000" />
     </task>
     <servers />
   </component>
@@ -820,11 +814,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162666000" />
+    <option name="totallyTimeSpent" value="163157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="24" width="1419" height="826" extended-state="0" />
-    <editor active="true" />
+    <frame x="21" y="24" width="1419" height="826" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35211268" sideWeight="0.15676449" order="11" side_tool="true" content_ui="tabs" />
@@ -843,10 +836,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.060734462" sideWeight="0.8432355" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.060734462" sideWeight="0.8432355" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0014104373" sideWeight="0.4965157" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17090395" sideWeight="0.7796167" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43361583" sideWeight="0.7796167" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21132898" sideWeight="0.85427135" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14770932" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24012639" sideWeight="0.14572865" order="0" side_tool="true" content_ui="tabs" />
@@ -1362,8 +1355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="183">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="17" />
           <folding>
             <element signature="e#693#694#0" expanded="true" />
             <element signature="e#742#743#0" expanded="true" />
