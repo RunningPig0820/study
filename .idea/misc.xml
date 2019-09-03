@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/summaryFramework/pom.xml" />
         <option value="$PROJECT_DIR$/studyZooKeeper/pom.xml" />
         <option value="$PROJECT_DIR$/studyDruid/pom.xml" />
+        <option value="$PROJECT_DIR$/studyNIO/pom.xml" />
       </list>
     </option>
   </component>
