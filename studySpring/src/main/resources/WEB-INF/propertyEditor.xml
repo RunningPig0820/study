@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="userManager" class="taosha.propertyEditor.UserManager">
+        <property name="dataValue" value="2013-03-15"/>
+    </bean>
+
+    <bean id="customEditorConfigurer" class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="customEditors">
+            <map>
+                <entry key="java.util.Date" value="taosha.propertyEditor.DatePropertyEditor"/>
+            </map>
+        </property>
+    </bean>
+
+    <!--<bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">-->
+        <!--<property name="propertyEditorRegistrars">-->
+            <!--<list>-->
+                <!--<bean class="taosha.propertyEditor.DatePropertyEditorRegistrar"/>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+
+
+</beans>
