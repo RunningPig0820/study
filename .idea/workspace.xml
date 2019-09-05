@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e162205d-e254-4444-83d4-4ccf1759e71d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditorRegistrar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/UserManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/propertyEditor.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/event/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestEvent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/event.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/studySpring/target/" />
@@ -42,96 +41,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="propertyEditor.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/propertyEditor.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="500" column="47" lean-forward="false" selection-start-line="500" selection-start-column="44" selection-end-line="500" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-beans.xsd" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="963" column="4" lean-forward="false" selection-start-line="963" selection-start-column="4" selection-end-line="963" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomEditorConfigurer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/config/CustomEditorConfigurer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatePropertyEditor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="617" column="17" lean-forward="false" selection-start-line="617" selection-start-column="17" selection-end-line="617" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultSingletonBeanRegistry.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DatePropertyEditorRegistrar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditorRegistrar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="292">
               <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -140,11 +53,125 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ResourceEditorRegistrar.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/support/ResourceEditorRegistrar.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="36" />
+              <folding>
+                <marker date="1560756747007" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1560756747007" expanded="false" signature="157:1498" ph="..." />
+                <marker date="1560756747007" expanded="true" signature="1778:1881" ph="{...}" />
+                <marker date="1560756747007" expanded="true" signature="1954:3295" ph="{...}" />
+                <marker date="1560756747007" expanded="true" signature="3410:3674" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CustomDateEditor.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/propertyeditors/CustomDateEditor.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="140">
               <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <marker date="1560756747007" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1560756747007" expanded="false" signature="165:370" ph="..." />
+                <marker date="1560756747007" expanded="true" signature="624:742" ph="{...}" />
+                <marker date="1560756747007" expanded="true" signature="836:967" ph="{...}" />
+                <marker date="1560756747007" expanded="true" signature="1050:1682" ph="{...}" />
+                <marker date="1560756747007" expanded="true" signature="1714:1832" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestEvent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/event/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleApplicationEventMulticaster.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <marker date="1560756745869" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1560756745869" expanded="false" signature="157:598" ph="..." />
+                <marker date="1560756745869" expanded="true" signature="843:850" ph="{}" />
+                <marker date="1560756745869" expanded="false" signature="921:932" ph=" { " />
+                <marker date="1560756745869" expanded="false" signature="965:971" ph=" }" />
+                <marker date="1560756745869" expanded="false" signature="1037:1048" ph=" { " />
+                <marker date="1560756745869" expanded="false" signature="1081:1087" ph=" }" />
+                <marker date="1560756745869" expanded="false" signature="1143:1154" ph=" { " />
+                <marker date="1560756745869" expanded="false" signature="1179:1185" ph=" }" />
+                <marker date="1560756745869" expanded="false" signature="1255:1266" ph=" { " />
+                <marker date="1560756745869" expanded="false" signature="1299:1305" ph=" }" />
+                <marker date="1560756745869" expanded="false" signature="1365:1376" ph=" { " />
+                <marker date="1560756745869" expanded="false" signature="1401:1407" ph=" }" />
+                <marker date="1560756745869" expanded="true" signature="1464:1544" ph="{...}" />
+                <marker date="1560756745869" expanded="true" signature="1637:2245" ph="{...}" />
+                <marker date="1560756745869" expanded="true" signature="2060:2137" ph="{...}" />
+                <marker date="1560756745869" expanded="false" signature="2321:2332" ph=" { " />
+                <marker date="1560756745869" expanded="false" signature="2373:2379" ph=" }" />
+                <marker date="1560756745869" expanded="true" signature="2472:2830" ph="{...}" />
+                <marker date="1560756745869" expanded="true" signature="2920:3425" ph="{...}" />
+                <marker date="1560756745869" expanded="true" signature="3517:3934" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/event.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,7 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>alipay.</find>
       <find>moxiezm</find>
       <find>driverClassName</find>
       <find>data</find>
@@ -194,6 +220,7 @@
       <find>userManager</find>
       <find>put</find>
       <find>customEditors</find>
+      <find>registerCustomEditors</find>
     </findStrings>
     <replaceStrings>
       <replace>),</replace>
@@ -218,10 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/summaryFramework/src/test/resources/db/schema.sql" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/enums/FieldType.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/annotation/FieldName.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/entity/BaseEntity.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/entity/User.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/BaseDaoConfiguration.java" />
         <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/dao/AbstractDao.java" />
@@ -269,6 +292,10 @@
         <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditor.java" />
         <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/Main.java" />
         <option value="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/propertyEditor.xml" />
+        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestEvent.java" />
+        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestListener.java" />
+        <option value="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/event.xml" />
+        <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/event/Main.java" />
       </list>
     </option>
   </component>
@@ -291,10 +318,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="y" value="64" />
-    <option name="width" value="1505" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="650" />
+    <option name="y" value="23" />
+    <option name="width" value="869" />
     <option name="height" value="819" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -338,8 +365,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,7 +417,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="taosha" type="462c0819:PsiDirectoryNode" />
-              <item name="factoryBean" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -400,7 +427,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="taosha" type="462c0819:PsiDirectoryNode" />
-              <item name="propertyEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryBean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -441,8 +468,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,7 +482,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Selector&#9;PSI&#9;JAVA://java.nio.channels.Selector&#10;Buffer&#9;PSI&#9;JAVA://java.nio.Buffer&#10;AbstractRoutingDataSource&#9;PSI&#9;JAVA://org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource&#10;Result&#9;PSI&#9;JAVA://javax.xml.transform.Result&#10;registerBeanDefinitionParser&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.NamespaceHandlerSupport#registerBeanDefinitionParser&#10;parseCustomElement&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.BeanDefinitionParserDelegate#parseCustomElement" />
+    <property name="SearchEverywhereHistoryKey" value="SimpleApplicationE&#9;PSI&#9;JAVA://org.springframework.context.event.SimpleApplicationEventMulticaster&#10;ResourceEdit&#9;PSI&#9;JAVA://org.springframework.beans.support.ResourceEditorRegistrar&#10;registerCu&#9;PSI&#9;JAVA://taosha.propertyEditor.DatePropertyEditorRegistrar#registerCustomEditors&#10;Selector&#9;PSI&#9;JAVA://java.nio.channels.Selector&#10;Buffer&#9;PSI&#9;JAVA://java.nio.Buffer&#10;AbstractRoutingDataSource&#9;PSI&#9;JAVA://org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource&#10;Result&#9;PSI&#9;JAVA://javax.xml.transform.Result&#10;registerBeanDefinitionParser&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.NamespaceHandlerSupport#registerBeanDefinitionParser&#10;parseCustomElement&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.BeanDefinitionParserDelegate#parseCustomElement" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -464,19 +491,19 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/studyDruid/src/main/resources" />
-      <recent name="$PROJECT_DIR$/studyDruid/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/main/resources/db" />
-      <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.taosha.studydruid" />
       <recent name="db" />
       <recent name="" />
       <recent name="com.taosha.summaryframework.customException" />
       <recent name="com.taosha.summaryframework.verify" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
+      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources/db" />
+      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources" />
+      <recent name="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customException" />
+      <recent name="$PROJECT_DIR$/summaryFramework" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.taosha.controller" />
@@ -485,12 +512,12 @@
       <recent name="com.taosha.summaryframework.customData.entity" />
       <recent name="com.taosha.summaryframework.customException.constants" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources/db" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customException" />
-      <recent name="$PROJECT_DIR$/summaryFramework" />
-      <recent name="$PROJECT_DIR$/studyzookeeper1/src/main/java/com/taosha" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/studyDruid/src/main/resources" />
+      <recent name="$PROJECT_DIR$/studyDruid/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao" />
+      <recent name="$PROJECT_DIR$/summaryFramework/src/main/resources/db" />
+      <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -505,13 +532,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="taosha.event.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="taosha.event.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="studySpring" />
+      <envs />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -568,25 +614,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="studyNIO" />
-      <envs />
-    </configuration>
-    <configuration name="StudyAware" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="taosha.aware.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="taosha.aware.StudyAware" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="studySpring" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -723,19 +750,19 @@
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Studyzookeeper1Application" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.SummaryFrameworkApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.StudydruidApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StudyAware" />
-      <item index="5" class="java.lang.String" itemvalue="Application.test" />
-      <item index="6" class="java.lang.String" itemvalue="Application.NioServer" />
-      <item index="7" class="java.lang.String" itemvalue="Application.NioClient" />
-      <item index="8" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="Application.test" />
+      <item index="5" class="java.lang.String" itemvalue="Application.NioServer" />
+      <item index="6" class="java.lang.String" itemvalue="Application.NioClient" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NioClient" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NioServer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StudyAware" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NioClient" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NioServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -786,7 +813,8 @@
       <workItem from="1567476668711" duration="2196000" />
       <workItem from="1567494948508" duration="6297000" />
       <workItem from="1567511369945" duration="1161000" />
-      <workItem from="1567561601028" duration="12815000" />
+      <workItem from="1567561601028" duration="13483000" />
+      <workItem from="1567647567075" duration="3760000" />
     </task>
     <servers />
   </component>
@@ -823,10 +851,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191491000" />
+    <option name="totallyTimeSpent" value="195919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="64" width="1505" height="819" extended-state="0" />
+    <frame x="650" y="23" width="869" height="819" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35211268" sideWeight="0.15676449" order="11" side_tool="true" content_ui="tabs" />
@@ -845,11 +874,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08701854" sideWeight="0.8432355" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46647647" sideWeight="0.8432355" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0014104373" sideWeight="0.4965157" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2693935" sideWeight="0.7796167" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17566644" sideWeight="0.85427135" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2681883" sideWeight="0.7796167" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0024183798" sideWeight="0.85427135" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14770932" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24012639" sideWeight="0.14572865" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2877292" sideWeight="0.48341233" order="2" side_tool="false" content_ui="tabs" />
@@ -971,7 +1000,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="49" />
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -980,366 +1009,124 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/studySpringBoot/src/main/java/com/taosha/studyspringboot/StudySpringBootApplication.java">
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8968">
+          <caret line="500" column="47" lean-forward="false" selection-start-line="500" selection-start-column="44" selection-end-line="500" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18297">
+          <caret line="963" column="4" lean-forward="false" selection-start-line="963" selection-start-column="4" selection-end-line="963" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/config/CustomEditorConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <marker date="1560756747007" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560756747007" expanded="false" signature="164:525" ph="..." />
+            <marker date="1560756747007" expanded="true" signature="918:925" ph="{}" />
+            <marker date="1560756747007" expanded="false" signature="962:973" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="992:998" ph=" }" />
+            <marker date="1560756747007" expanded="false" signature="1025:1036" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="1054:1060" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="1158:1231" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="1328:1379" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="1487:2025" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpringBoot/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/circularDependency/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/nio/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="179" column="6" lean-forward="true" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/bean/test.java" />
-    <entry file="file://$PROJECT_DIR$/studyNIO/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studyNIO/src/main/java/src/NioClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studyNIO/src/main/java/src/CodecUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/nio/channels/SelectionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4598">
-          <caret line="266" column="28" lean-forward="false" selection-start-line="266" selection-start-column="28" selection-end-line="266" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/nio/channels/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3401">
-          <caret line="205" column="51" lean-forward="false" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/Closeable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/AutoCloseable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studyNIO/src/main/java/src/NioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/lookupTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/aware/MyApplicationAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/lookupMethod/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/definitionParser/StudySpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/PropertyEditorRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/propertyeditors/CurrencyEditor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#1043#1044#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#859#860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#864#865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/beans/PropertyEditorSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="173" column="15" lean-forward="true" selection-start-line="173" selection-start-column="15" selection-end-line="173" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/circularDependency.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/definitionParser.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/replacemethod.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar!/org/springframework/core/Ordered.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/propertyeditors/CustomDateEditor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="359" column="0" lean-forward="false" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="311" column="0" lean-forward="false" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+        <state relative-caret-position="11229">
+          <caret line="617" column="17" lean-forward="false" selection-start-line="617" selection-start-column="17" selection-end-line="617" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="1957">
           <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="617" column="17" lean-forward="false" selection-start-line="617" selection-start-column="17" selection-end-line="617" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1560756747007" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560756747007" expanded="false" signature="165:1062" ph="..." />
+            <marker date="1560756747007" expanded="true" signature="2242:2249" ph="{}" />
+            <marker date="1560756747007" expanded="true" signature="2355:2994" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="3069:3404" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="3497:3952" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="4015:4026" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="4067:4073" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="4169:5056" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="5141:7560" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="7617:7841" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="7895:8219" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="8274:8285" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="8336:8342" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="8384:8562" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="8599:8757" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="8835:9080" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="9140:9317" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="9378:9389" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="9442:9448" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="9517:9594" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="9656:9858" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="9919:10163" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="10242:10399" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="10492:10943" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="10693:10753" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="11026:11819" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="11309:11369" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="11689:11749" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="11898:12080" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="12192:13290" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="13347:13358" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="13409:13415" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="13472:13833" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="13895:14289" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="14327:15136" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="15179:15526" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="15578:15897" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="15978:18016" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="18061:18072" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="18101:18107" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditorRegistrar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="247">
           <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1347,48 +1134,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/propertyeditors/CustomDateEditor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="963" column="4" lean-forward="false" selection-start-line="963" selection-start-column="4" selection-end-line="963" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="500" column="47" lean-forward="false" selection-start-line="500" selection-start-column="44" selection-end-line="500" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="71" />
+        <state relative-caret-position="209">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/config/CustomEditorConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
+            <marker date="1560756747007" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560756747007" expanded="false" signature="165:370" ph="..." />
+            <marker date="1560756747007" expanded="true" signature="624:742" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="836:967" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="1050:1682" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="1714:1832" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1398,6 +1154,279 @@
         <state relative-caret-position="114">
           <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8968">
+          <caret line="500" column="47" lean-forward="false" selection-start-line="500" selection-start-column="44" selection-end-line="500" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18297">
+          <caret line="963" column="4" lean-forward="false" selection-start-line="963" selection-start-column="4" selection-end-line="963" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/config/CustomEditorConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <marker date="1560756747007" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560756747007" expanded="false" signature="164:525" ph="..." />
+            <marker date="1560756747007" expanded="true" signature="918:925" ph="{}" />
+            <marker date="1560756747007" expanded="false" signature="962:973" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="992:998" ph=" }" />
+            <marker date="1560756747007" expanded="false" signature="1025:1036" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="1054:1060" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="1158:1231" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="1328:1379" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="1487:2025" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11229">
+          <caret line="617" column="17" lean-forward="false" selection-start-line="617" selection-start-column="17" selection-end-line="617" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <marker date="1560756747007" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560756747007" expanded="false" signature="165:1062" ph="..." />
+            <marker date="1560756747007" expanded="true" signature="2242:2249" ph="{}" />
+            <marker date="1560756747007" expanded="true" signature="2355:2994" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="3069:3404" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="3497:3952" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="4015:4026" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="4067:4073" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="4169:5056" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="5141:7560" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="7617:7841" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="7895:8219" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="8274:8285" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="8336:8342" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="8384:8562" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="8599:8757" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="8835:9080" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="9140:9317" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="9378:9389" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="9442:9448" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="9517:9594" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="9656:9858" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="9919:10163" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="10242:10399" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="10492:10943" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="10693:10753" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="11026:11819" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="11309:11369" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="11689:11749" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="11898:12080" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="12192:13290" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="13347:13358" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="13409:13415" ph=" }" />
+            <marker date="1560756747007" expanded="true" signature="13472:13833" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="13895:14289" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="14327:15136" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="15179:15526" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="15578:15897" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="15978:18016" ph="{...}" />
+            <marker date="1560756747007" expanded="false" signature="18061:18072" ph=" { " />
+            <marker date="1560756747007" expanded="false" signature="18101:18107" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/propertyEditor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/PropertyEditorRegistrar.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/PropertyEditorRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/PropertyEditorRegistrySupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/support/ResourceEditorRegistrar.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <marker date="1560756747007" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560756747007" expanded="false" signature="157:1498" ph="..." />
+            <marker date="1560756747007" expanded="true" signature="1778:1881" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="1954:3295" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="3410:3674" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditorRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/propertyeditors/CustomDateEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <marker date="1560756747007" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560756747007" expanded="false" signature="165:370" ph="..." />
+            <marker date="1560756747007" expanded="true" signature="624:742" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="836:967" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="1050:1682" ph="{...}" />
+            <marker date="1560756747007" expanded="true" signature="1714:1832" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/event.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/event/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="72" column="3" lean-forward="false" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <marker date="1560756745869" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560756745869" expanded="false" signature="157:598" ph="..." />
+            <marker date="1560756745869" expanded="true" signature="843:850" ph="{}" />
+            <marker date="1560756745869" expanded="false" signature="921:932" ph=" { " />
+            <marker date="1560756745869" expanded="false" signature="965:971" ph=" }" />
+            <marker date="1560756745869" expanded="false" signature="1037:1048" ph=" { " />
+            <marker date="1560756745869" expanded="false" signature="1081:1087" ph=" }" />
+            <marker date="1560756745869" expanded="false" signature="1143:1154" ph=" { " />
+            <marker date="1560756745869" expanded="false" signature="1179:1185" ph=" }" />
+            <marker date="1560756745869" expanded="false" signature="1255:1266" ph=" { " />
+            <marker date="1560756745869" expanded="false" signature="1299:1305" ph=" }" />
+            <marker date="1560756745869" expanded="false" signature="1365:1376" ph=" { " />
+            <marker date="1560756745869" expanded="false" signature="1401:1407" ph=" }" />
+            <marker date="1560756745869" expanded="true" signature="1464:1544" ph="{...}" />
+            <marker date="1560756745869" expanded="true" signature="1637:2245" ph="{...}" />
+            <marker date="1560756745869" expanded="true" signature="2060:2137" ph="{...}" />
+            <marker date="1560756745869" expanded="false" signature="2321:2332" ph=" { " />
+            <marker date="1560756745869" expanded="false" signature="2373:2379" ph=" }" />
+            <marker date="1560756745869" expanded="true" signature="2472:2830" ph="{...}" />
+            <marker date="1560756745869" expanded="true" signature="2920:3425" ph="{...}" />
+            <marker date="1560756745869" expanded="true" signature="3517:3934" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
