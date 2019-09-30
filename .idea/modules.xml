@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/studyNIO/studyNIO.iml" filepath="$PROJECT_DIR$/studyNIO/studyNIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/studySpring/studySpring.iml" filepath="$PROJECT_DIR$/studySpring/studySpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/studySpringBoot/studySpringBoot.iml" filepath="$PROJECT_DIR$/studySpringBoot/studySpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyThread/studyThread.iml" filepath="$PROJECT_DIR$/studyThread/studyThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyZooKeeper/studyZooKeeper.iml" filepath="$PROJECT_DIR$/studyZooKeeper/studyZooKeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/summaryFramework/summaryFramework.iml" filepath="$PROJECT_DIR$/summaryFramework/summaryFramework.iml" />
     </modules>

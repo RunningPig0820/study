@@ -6,13 +6,13 @@
         <option value="$PROJECT_DIR$/studySpring/pom.xml" />
         <option value="$PROJECT_DIR$/studySpringboot/pom.xml" />
         <option value="$PROJECT_DIR$/studyzookeeper1/pom.xml" />
-        <option value="$PROJECT_DIR$/summaryFramework/pom.xml" />
         <option value="$PROJECT_DIR$/studyZooKeeper/pom.xml" />
         <option value="$PROJECT_DIR$/studyDruid/pom.xml" />
         <option value="$PROJECT_DIR$/studyNIO/pom.xml" />
+        <option value="$PROJECT_DIR$/studyThread/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="10" project-jdk-type="JavaSDK" />
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>
