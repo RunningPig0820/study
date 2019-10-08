@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="studyDruid" />
         <module name="studyNIO" />
+        <module name="studyRpc" />
         <module name="studySpring" />
         <module name="studySpringBoot" />
         <module name="studyThread" />
@@ -20,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="studyDruid" target="1.8" />
       <module name="studyNIO" target="1.8" />
+      <module name="studyRpc" target="6" />
       <module name="studySpring" target="1.6" />
       <module name="studySpringBoot" target="1.8" />
       <module name="studyThread" target="6" />

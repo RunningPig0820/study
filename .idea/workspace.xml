@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e162205d-e254-4444-83d4-4ccf1759e71d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyDruid/studyDruid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyNIO/studyNIO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studySpringBoot/studySpringBoot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyThread/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyThread/src/main/java/com.taosha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyThread/studyThread.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyZooKeeper/studyZooKeeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/summaryFramework/summaryframework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/client/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/RemoteInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/RpcClientProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/TCPTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/common/IHelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/AbstractLoadBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/LoadBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/RandomLoadBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/Depository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/IRegisterCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/RegisterCenterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/service/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/service/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/service/anno/RpcAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/service/bean/RpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/ProcessorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/RpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/serviceDiscovery/IServiceDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyRpc/src/main/java/serviceDiscovery/ServiceDiscoveryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studySpring/studySpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studySpring/studySpring.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/studySpring/target/" />
     <ignored path="$PROJECT_DIR$/studyZooKeeper/target/" />
@@ -25,6 +35,7 @@
     <ignored path="$PROJECT_DIR$/studyDruid/target/" />
     <ignored path="$PROJECT_DIR$/studyNIO/target/" />
     <ignored path="$PROJECT_DIR$/studyThread/target/" />
+    <ignored path="$PROJECT_DIR$/studyRpc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,118 +62,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/studyThread/src/main/java/com.taosha/Main.java">
+      <file leaf-file-name="ClientDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/client/ClientDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="242">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
+      <file leaf-file-name="RpcClientProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/RpcClientProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4642">
-              <caret line="361" column="25" selection-start-line="361" selection-start-column="11" selection-end-line="361" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="395" column="31" selection-start-line="395" selection-start-column="26" selection-end-line="395" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcurrentHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="624" column="47" selection-start-line="624" selection-start-column="42" selection-end-line="624" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="405" column="14" selection-start-line="405" selection-start-column="14" selection-end-line="405" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="117" column="65" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="303" column="23" selection-start-line="303" selection-start-column="23" selection-end-line="303" selection-end-column="23" />
+            <state relative-caret-position="236">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="43" />
               <folding>
-                <element signature="docComment;class#AbstractQueuedSynchronizer#0" />
-                <element signature="e#12145#16343#0" />
-                <element signature="e#12145#23514#0" />
-                <element signature="e#24553#25144#0" />
-                <element signature="e#25438#25599#0" />
-                <element signature="e#25438#26007#0" />
-                <element signature="e#26013#26199#0" />
-                <element signature="e#26013#26647#0" />
-                <element signature="e#26653#27015#0" />
-                <element signature="e#27021#28052#0" />
-                <element signature="e#28058#28271#0" />
-                <element signature="e#28058#29556#0" />
-                <element signature="e#29562#29840#0" />
-                <element signature="e#29562#30945#0" />
-                <element signature="e#31001#31093#0" />
-                <element signature="e#31001#32708#0" />
-                <element signature="e#32714#33071#0" />
-                <element signature="e#32714#34030#0" />
-                <element signature="e#34036#34102#0" />
-                <element signature="e#34192#34318#0" />
-                <element signature="e#34192#34445#0" />
-                <element signature="e#34860#35139#0" />
-                <element signature="e#34860#35812#0" />
-                <element signature="e#35818#36600#0" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java">
+      <file leaf-file-name="Depository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/Depository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarFactoryBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/CarFactoryBean.java">
+      <file leaf-file-name="HelloServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/HelloServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="147">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/Main.java">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="14" column="20" selection-start-line="14" selection-end-line="15" />
+            <state relative-caret-position="266">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/RpcServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="63" column="60" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessorHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/ProcessorHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="69" column="50" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterCenterImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/RegisterCenterImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteInvocationHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/RemoteInvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TCPTransport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/TCPTransport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+              <folding>
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,9 +177,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>da</find>
-      <find>DataSourceProperties</find>
-      <find>schema</find>
       <find>var6</find>
       <find>var</find>
       <find>while</find>
@@ -211,6 +204,9 @@
       <find>Entry</find>
       <find>table</find>
       <find>ThreadLocalMap</find>
+      <find>send</find>
+      <find>registerCenter</find>
+      <find>RemoteInvocationHandler</find>
     </findStrings>
     <replaceStrings>
       <replace>),</replace>
@@ -230,36 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/controller/DaoController.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/pom.xml" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/DruidConfiguration.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/configuration/UserDaoConfiguration.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customData/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/configuration/DruidConfiguration.java" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/test/resources/application.properties" />
-        <option value="$PROJECT_DIR$/summaryFramework/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/summaryFramework/README.md" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/User.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/resources/user.xml" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/bean/User.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/controller/DruidController.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/configuration/DruidDbConfig.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/StudydruidApplication.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/StudyDruidApplication.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/test/java/com/taosha/studydruid/StudyDruidApplicationTests.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/resources/META-INF/additional-spring-configuration-metadata.json" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/configuration/DruidDbConfig.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/configuration/UserDbConfig.java" />
-        <option value="$PROJECT_DIR$/studyDruid/pom.xml" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/resources/META-INF/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao/ScoreMapper.java" />
-        <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/controller/DruidController.java" />
         <option value="$PROJECT_DIR$/studyNIO/pom.xml" />
         <option value="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/bean/test.java" />
         <option value="$PROJECT_DIR$/studyNIO/src/main/java/src/NioService.java" />
@@ -281,11 +247,47 @@
         <option value="$PROJECT_DIR$/studySpring/pom.xml" />
         <option value="$PROJECT_DIR$/studySpring/src/main/java/taosha/aop/AspectJTest.java" />
         <option value="$PROJECT_DIR$/studyThread/src/main/java/com.taosha/Main.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/a.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/common/IHelloService.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/IRegisterCenter.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/RpcAnnotation.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/RpcServer.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/IServiceDiscovery.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/serviceDiscovery/IServiceDiscovery.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/ProcessorHandler.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/RemoteInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/registerCenter/RegisterCenterImpl.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/anno/RpcAnnotation.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/LoadBanalce.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/AbstractLoadBanance.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/RandomLoadBanalce.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/LoadBalance.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/serviceDiscovery/IServiceDiscovery.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/IRegisterCenter.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/client/RemoteInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/client/TCPTransport.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/client/RpcClientProxy.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/RpcClientProxy.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/Server.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/RpcServer.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/client/ClientDemo.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/serviceDiscovery/ServiceDiscoveryImpl.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/service/bean/RpcRequest.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/RegisterCenterImpl.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/Depository.java" />
+        <option value="$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/RemoteInvocationHandler.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -303,36 +305,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="27" />
-    <option name="width" value="1366" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="147" />
+    <option name="y" value="30" />
+    <option name="width" value="1251" />
     <option name="height" value="804" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Ali-Check</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>NullableProblems</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -342,7 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,25 +329,51 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyThread" type="462c0819:PsiDirectoryNode" />
+              <item name="studyNIO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyThread" type="462c0819:PsiDirectoryNode" />
+              <item name="studyNIO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyThread" type="462c0819:PsiDirectoryNode" />
+              <item name="studyNIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyNIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyRpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyRpc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyThread" type="462c0819:PsiDirectoryNode" />
+              <item name="studyRpc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -379,60 +381,30 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="studyThread" type="462c0819:PsiDirectoryNode" />
+              <item name="studyRpc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.taosha" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="remoteServer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="studyRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="locks" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -440,6 +412,7 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,36 +432,36 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.taosha.studydruid" />
-      <recent name="db" />
-      <recent name="" />
-      <recent name="com.taosha.summaryframework.customException" />
-      <recent name="com.taosha.summaryframework.verify" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources/db" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customException" />
-      <recent name="$PROJECT_DIR$/summaryFramework" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="taosha.aop" />
-      <recent name="com.taosha.controller" />
-      <recent name="com.taosha.configuration" />
-      <recent name="com.taosha.summaryframework.customData.enums" />
-      <recent name="com.taosha.summaryframework.customData.entity" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/studyDruid/src/main/resources" />
       <recent name="$PROJECT_DIR$/studyDruid/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao" />
       <recent name="$PROJECT_DIR$/summaryFramework/src/main/resources/db" />
       <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.taosha.studydruid" />
+      <recent name="db" />
+      <recent name="com.taosha.summaryframework.customException" />
+      <recent name="com.taosha.summaryframework.verify" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="client.remoteServer" />
+      <recent name="client" />
+      <recent name="serviceDiscovery" />
+      <recent name="service.registerCenter" />
+      <recent name="service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/studyRpc/src/main/java" />
+      <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
+      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources/db" />
+      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources" />
+      <recent name="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customException" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -503,9 +476,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.ClientDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.ClientDemo" />
+      <module name="studyRpc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.remoteServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="taosha.event.Main" />
@@ -540,24 +524,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="taosha.propertyEditor.Main" />
-      <module name="studySpring" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="service.Server" />
+      <module name="studyRpc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taosha.propertyEditor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="NioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.NioClient" />
-      <module name="studyNIO" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -647,19 +620,19 @@
       <item itemvalue="Spring Boot.Studyzookeeper1Application" />
       <item itemvalue="Spring Boot.SummaryFrameworkApplication" />
       <item itemvalue="Spring Boot.StudydruidApplication" />
-      <item itemvalue="Application.NioClient" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.ClientDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientDemo" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NioClient" />
       </list>
     </recent_temporary>
   </component>
@@ -712,6 +685,7 @@
       <workItem from="1568774526261" duration="402000" />
       <workItem from="1568775104464" duration="747000" />
       <workItem from="1568943310153" duration="3689000" />
+      <workItem from="1569828229712" duration="8621000" />
     </task>
     <servers />
   </component>
@@ -748,10 +722,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202361000" />
+    <option name="totallyTimeSpent" value="210982000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="27" width="1366" height="804" extended-state="0" />
+    <frame x="147" y="30" width="1251" height="804" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
@@ -760,33 +734,33 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3292683" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24936171" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.07516106" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48671874" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48671874" weight="0.32956153" />
       <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49330956" weight="0.32465753" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32956153" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329602" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8432355" weight="0.40085593" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8432355" visible="true" weight="0.33097595" />
       <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.4965157" weight="0.0014104373" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.7796167" weight="0.2681883" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.85427135" visible="true" weight="0.027190333" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.7796167" weight="0.11173975" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.85427135" visible="true" weight="0.23986766" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.14770932" />
       <window_info id="Web" order="0" sideWeight="0.14572865" side_tool="true" weight="0.24012639" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.48341233" visible="true" weight="0.28712872" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.5073069" side_tool="true" weight="0.26279527" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Statistic" order="8" weight="0.13438736" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.49330956" visible="true" weight="0.32465753" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.48341233" visible="true" weight="0.28712872" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="3" />
@@ -894,11 +868,23 @@
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/studyRpc/src/main/java/serviceDiscovery/ServiceDiscoveryImpl.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/RegisterCenterImpl.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="50" />
+      <option name="time" value="52" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -906,92 +892,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class" />
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditorRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/propertyeditors/CustomDateEditor.class" />
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/propertyEditor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/config/CustomEditorConfigurer.class" />
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class" />
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/propertyEditor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/PropertyEditorRegistrar.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/PropertyEditorRegistry.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/PropertyEditorRegistrySupport.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/support/ResourceEditorRegistrar.class" />
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/propertyEditor/DatePropertyEditorRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/propertyeditors/CustomDateEditor.class" />
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/event/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.class" />
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/event/TestEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class" />
-    <entry file="file://$PROJECT_DIR$/studySpring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/aop/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1010,13 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,9 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/META-INF/spring.handlers">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/aop.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1062,21 +952,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/lookupTest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/event.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/definitionParser.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/circularDependency.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF/carFactory.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1094,21 +975,21 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="2835">
           <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="1722">
           <caret line="117" column="65" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="168">
           <caret line="303" column="23" selection-start-line="303" selection-start-column="23" selection-end-line="303" selection-end-column="23" />
           <folding>
             <element signature="docComment;class#AbstractQueuedSynchronizer#0" />
@@ -1139,23 +1020,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="395" column="31" selection-start-line="395" selection-start-column="26" selection-end-line="395" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="11718">
           <caret line="624" column="47" selection-start-line="624" selection-start-column="42" selection-end-line="624" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="7959">
           <caret line="405" column="14" selection-start-line="405" selection-start-column="14" selection-end-line="405" selection-end-column="14" />
         </state>
       </provider>
@@ -1170,21 +1044,262 @@
     <entry file="file://$PROJECT_DIR$/studySpring/src/main/java/taosha/factoryBean/CarFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4642">
+        <state relative-caret-position="6573">
           <caret line="361" column="25" selection-start-line="361" selection-start-column="11" selection-end-line="361" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/studyThread/src/main/java/com.taosha/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/com/taosha/studyrpc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/serviceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.rmi/sun/rmi/transport/tcp/TCPTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="157" column="41" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/RemoteInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/AbstractLoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/RandomLoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/loadbalance/LoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/serviceDiscovery/IServiceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/IRegisterCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/RemoteInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/anno/RpcAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/common/IHelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="554" column="13" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="13" />
+          <folding>
+            <element signature="e#24282#24283#0" expanded="true" />
+            <element signature="e#24347#24348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="2352" column="20" selection-start-line="2352" selection-start-column="20" selection-end-line="2352" selection-end-column="20" />
+          <folding>
+            <element signature="e#94126#94127#0" expanded="true" />
+            <element signature="e#94164#94165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/serviceDiscovery/IServiceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/bean/RpcRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/serviceDiscovery/ServiceDiscoveryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/Depository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/registerCenter/RegisterCenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/client/ClientDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/RpcClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/RemoteInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/client/remoteServer/TCPTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/RpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="63" column="60" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studyRpc/src/main/java/service/remoteServer/ProcessorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="50" />
         </state>
       </provider>
     </entry>

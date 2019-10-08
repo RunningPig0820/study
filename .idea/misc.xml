@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/studyDruid/pom.xml" />
         <option value="$PROJECT_DIR$/studyNIO/pom.xml" />
         <option value="$PROJECT_DIR$/studyThread/pom.xml" />
+        <option value="$PROJECT_DIR$/studyRpc/pom.xml" />
       </list>
     </option>
   </component>
