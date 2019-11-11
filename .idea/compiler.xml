@@ -6,16 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="studyDruid" />
-        <module name="studyNIO" />
-        <module name="studyRpc" />
-        <module name="studySpring" />
-        <module name="studySpringBoot" />
-        <module name="studyThread" />
         <module name="studyzookeeper" />
-        <module name="studyZooKeeper" />
+        <module name="studySpring" />
+        <module name="studyDruid" />
+        <module name="studyRpc" />
         <module name="studyzookeeper1" />
+        <module name="studyZooKeeper" />
+        <module name="studyThread" />
         <module name="summaryFramework" />
+        <module name="studyNIO" />
+        <module name="studySpringBoot" />
+        <module name="studyVertx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,11 +26,19 @@
       <module name="studySpring" target="1.6" />
       <module name="studySpringBoot" target="1.8" />
       <module name="studyThread" target="6" />
+      <module name="studyVertx" target="1.5" />
       <module name="studyzookeeper" target="1.8" />
       <module name="studyZooKeeper" target="1.8" />
       <module name="studyzookeeper1" target="1.8" />
       <module name="summaryframework" target="1.8" />
       <module name="summaryFramework" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="studyDruid" options="-parameters" />
+      <module name="studySpringBoot" options="-parameters" />
+      <module name="studyZooKeeper" options="-parameters" />
+    </option>
   </component>
 </project>
