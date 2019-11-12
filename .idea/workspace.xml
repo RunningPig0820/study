@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e162205d-e254-4444-83d4-4ccf1759e71d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_core_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_unit_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyVertx/src/main/java/taosha/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyVertx/src/main/java/taosha/verticles/MyFirstVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyVertx/src/test/java/com/taosha/MyFirstVerticleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyVertx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studyVertx/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyVertx/studyVertx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studyVertx/studyVertx.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,14 +122,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1TTBRtvJo0GbFGIe4tXt6LBnAAb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="ThreadLo&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Hashmap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java&#10;ConcurrentHashMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;SqlSessionFactoryBean&#9;PSI&#9;JAVA://org.mybatis.spring.SqlSessionFactoryBean&#10;SimpleApplicationE&#9;PSI&#9;JAVA://org.springframework.context.event.SimpleApplicationEventMulticaster&#10;ResourceEdit&#9;PSI&#9;JAVA://org.springframework.beans.support.ResourceEditorRegistrar&#10;registerCu&#9;PSI&#9;JAVA://taosha.propertyEditor.DatePropertyEditorRegistrar#registerCustomEditors&#10;Selector&#9;PSI&#9;JAVA://java.nio.channels.Selector&#10;Buffer&#9;PSI&#9;JAVA://java.nio.Buffer&#10;AbstractRoutingDataSource&#9;PSI&#9;JAVA://org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource&#10;Result&#9;PSI&#9;JAVA://javax.xml.transform.Result&#10;registerBeanDefinitionParser&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.NamespaceHandlerSupport#registerBeanDefinitionParser&#10;parseCustomElement&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.BeanDefinitionParserDelegate#parseCustomElement" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -161,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientDemo">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -182,41 +209,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="taosha.event.Main" />
-      <module name="studySpring" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taosha.Main" />
+      <module name="studyVertx" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taosha.event.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="taosha.aop.Main" />
-      <module name="studySpring" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taosha.aop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.taosha.Main" />
-      <module name="studyThread" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.taosha.*" />
+          <option name="PATTERN" value="taosha.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,6 +239,39 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstVerticleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studyVertx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taosha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.taosha" />
+      <option name="MAIN_CLASS_NAME" value="com.taosha.MyFirstVerticleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstVerticleTest.testApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studyVertx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taosha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.taosha" />
+      <option name="MAIN_CLASS_NAME" value="com.taosha.MyFirstVerticleTest" />
+      <option name="METHOD_NAME" value="testApplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,11 +343,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.ClientDemo" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MyFirstVerticleTest" />
+      <item itemvalue="JUnit.MyFirstVerticleTest.testApplication" />
       <item itemvalue="Spring Boot.StudySpringBootApplication" />
       <item itemvalue="Spring Boot.Studyzookeeper1Application" />
       <item itemvalue="Spring Boot.SummaryFrameworkApplication" />
@@ -323,11 +355,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MyFirstVerticleTest.testApplication" />
+        <item itemvalue="JUnit.MyFirstVerticleTest" />
         <item itemvalue="Application.ClientDemo" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -382,40 +414,14 @@
       <workItem from="1568943310153" duration="3689000" />
       <workItem from="1569828229712" duration="8621000" />
       <workItem from="1573474201646" duration="288000" />
+      <workItem from="1573474496888" duration="2404000" />
+      <workItem from="1573478006365" duration="39000" />
+      <workItem from="1573478142498" duration="2235000" />
+      <workItem from="1573524987503" duration="1312000" />
+      <workItem from="1573551797766" duration="948000" />
+      <workItem from="1573558926010" duration="589000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ExceptionTest_test - 2019.08.14 at 16h 49m 54s.xml">
-      <configuration name="ExceptionTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SummaryFrameworkApplicationTests_test - 2019.08.14 at 16h 51m 45s.xml">
-      <configuration name="SummaryFrameworkApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SummaryFrameworkApplicationTests_test - 2019.08.14 at 16h 57m 28s.xml">
-      <configuration name="SummaryFrameworkApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VerifyTest - 2019.08.13 at 15h 12m 04s.xml">
-      <configuration name="VerifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VerifyTest - 2019.08.13 at 15h 12m 47s.xml">
-      <configuration name="VerifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VerifyTest - 2019.08.13 at 15h 24m 03s.xml">
-      <configuration name="VerifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VerifyTest - 2019.08.13 at 15h 25m 06s.xml">
-      <configuration name="VerifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VerifyTest_test_verify - 2019.08.13 at 15h 26m 32s.xml">
-      <configuration name="VerifyTest.test_verify" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VerifyTest_test_verify - 2019.08.13 at 15h 27m 18s.xml">
-      <configuration name="VerifyTest.test_verify" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VerifyTest_test_verify - 2019.08.13 at 15h 29m 13s.xml">
-      <configuration name="VerifyTest.test_verify" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -432,6 +438,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
