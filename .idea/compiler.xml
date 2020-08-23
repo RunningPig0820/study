@@ -7,21 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="studyzookeeper" />
+        <module name="studySpringBoot" />
+        <module name="studyPattern" />
         <module name="studySpring" />
         <module name="studyDruid" />
         <module name="studyRpc" />
         <module name="studyzookeeper1" />
-        <module name="studyZooKeeper" />
+        <module name="studyMybitPlus" />
         <module name="studyThread" />
         <module name="summaryFramework" />
         <module name="studyNIO" />
-        <module name="studySpringBoot" />
+        <module name="studyZooKeeper" />
         <module name="studyVertx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="studyDruid" target="1.8" />
+      <module name="studyMybitPlus" target="1.8" />
+      <module name="studyMybitsPlus" target="1.8" />
       <module name="studyNIO" target="1.8" />
+      <module name="studyPattern" target="7" />
       <module name="studyRpc" target="6" />
       <module name="studySpring" target="1.6" />
       <module name="studySpringBoot" target="1.8" />
@@ -37,6 +42,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="studyDruid" options="-parameters" />
+      <module name="studyMybitPlus" options="-parameters" />
+      <module name="studyMybitsPlus" options="-parameters" />
       <module name="studySpringBoot" options="-parameters" />
       <module name="studyZooKeeper" options="-parameters" />
     </option>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--
+    mvn mybatis-generator:generate -f mybatis.xml
+
+     <selectKey keyProperty="id" order="BEFORE" resultType="java.lang.String">
+      SELECT sys_guid() AS ID FROM DUAL
+    </selectKey>
+    insert into CXS
+    -->
+    <classPathEntry location="/Users/zhangmin/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar" />
+    <context id="MysqlTables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/test"
+                        userId="root"
+                        password="123456789">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <!--长度 >18 生成 BigDecimal；-->
+            <!--长度 [10,18] 生成 Long；-->
+            <!--长度 [5,9] 生成 Integer；-->
+            <!--长度 (0,4] 生成 Short；-->
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!--model对象及其example对象的位置-->
+        <javaModelGenerator targetPackage="com.taosha.studydruid.bean" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!--xml文件位置-->
+        <sqlMapGenerator targetPackage="mapping" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!--XXX-Mapper文件位置-->
+        <javaClientGenerator targetPackage="com.taosha.studydruid.dao" type="XMLMAPPER" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>
+
+        <!--数据库中的表名-->
+        <table schema="NEWAPP" tableName="t_score" domainObjectName="Score">
+
+            <!--是否使用真实的列名-->
+            <property name="useActualColumnNames" value="false"/>
+            <property name="ignoreQualifiersAtRuntime" value="true"/>
+
+            <!--表的列名到字段名的转换-->
+            <!--<columnOverride column="create_time" property="createTime" />-->
+
+            <!--数据库类型到类字段类型的转换-->
+            <!--<columnOverride column="" javaType="Double"/>-->
+
+        </table>
+
+    </context>
+
+</generatorConfiguration>

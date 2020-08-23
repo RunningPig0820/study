@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/studyThread/pom.xml" />
         <option value="$PROJECT_DIR$/studyRpc/pom.xml" />
         <option value="$PROJECT_DIR$/studyVertx/pom.xml" />
+        <option value="$PROJECT_DIR$/studyMybitPlus/pom.xml" />
+        <option value="$PROJECT_DIR$/studyPattern/pom.xml" />
       </list>
     </option>
   </component>

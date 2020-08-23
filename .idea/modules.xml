@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/study.iml" filepath="$PROJECT_DIR$/.idea/study.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyDruid/studyDruid.iml" filepath="$PROJECT_DIR$/studyDruid/studyDruid.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyGit/studyGit.iml" filepath="$PROJECT_DIR$/studyGit/studyGit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyMybitPlus/studyMybitPlus.iml" filepath="$PROJECT_DIR$/studyMybitPlus/studyMybitPlus.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyNIO/studyNIO.iml" filepath="$PROJECT_DIR$/studyNIO/studyNIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyPattern/studyPattern.iml" filepath="$PROJECT_DIR$/studyPattern/studyPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyRpc/studyRpc.iml" filepath="$PROJECT_DIR$/studyRpc/studyRpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/studySpring/studySpring.iml" filepath="$PROJECT_DIR$/studySpring/studySpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/studySpringBoot/studySpringBoot.iml" filepath="$PROJECT_DIR$/studySpringBoot/studySpringBoot.iml" />

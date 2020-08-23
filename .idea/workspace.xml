@@ -2,30 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e162205d-e254-4444-83d4-4ccf1759e71d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_core_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_unit_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyVertx/src/main/java/taosha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyVertx/src/main/java/taosha/verticles/MyFirstVerticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studyVertx/src/test/java/com/taosha/MyFirstVerticleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/studyMybitPlus_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/src/main/java/com/taosha/studymybitplus/StudymybitplusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/src/main/java/com/taosha/studymybitplus/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/src/main/java/com/taosha/studymybitplus/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyMybitPlus/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/cglibproxy/$java/lang/Object$$FastClassByCGLIB$$3f697993.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/cglibproxy/net/sf/cglib/core/MethodWrapper$MethodWrapperKey$$KeyFactoryByCGLIB$$d45e49f7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/cglibproxy/net/sf/cglib/proxy/Enhancer$EnhancerKey$$KeyFactoryByCGLIB$$7fb24d72.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/cglibproxy/pattern/proxy/dynamicproxy/cglibproxy/Customer$$EnhancerByCGLIB$$be8de452$$FastClassByCGLIB$$6c24bb63.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/cglibproxy/pattern/proxy/dynamicproxy/cglibproxy/Customer$$EnhancerByCGLIB$$be8de452.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/cglibproxy/pattern/proxy/dynamicproxy/cglibproxy/Customer$$FastClassByCGLIB$$1ba70a1e.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dbrource/DbRouteProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dbrource/db/DynamicDataSourceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dbrource/proxy/OrderServiceDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dbrource/proxy/OrderServiceStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dbrource/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dbrource/service/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dbrource/service/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dbrource/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/JDKProxyTest$Proxy0.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/cglibproxy/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/jdkproxy/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/jdkproxy/JDKMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest$Proxy0.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/jdkproxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/tsproxy/TsClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/tsproxy/TsInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/tsproxy/TsMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/tsproxy/TsProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyPattern/studyPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usr/local/studyworkspace/study/studyPattern/src/main/java/pattern/proxy/dynamicproxy/cglibproxy/$java/lang/Object$$FastClassByCGLIB$$3f697993.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usr/local/studyworkspace/study/studyPattern/src/main/java/pattern/proxy/dynamicproxy/cglibproxy/net/sf/cglib/core/MethodWrapper$MethodWrapperKey$$KeyFactoryByCGLIB$$d45e49f7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usr/local/studyworkspace/study/studyPattern/src/main/java/pattern/proxy/dynamicproxy/cglibproxy/net/sf/cglib/proxy/Enhancer$EnhancerKey$$KeyFactoryByCGLIB$$7fb24d72.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usr/local/studyworkspace/study/studyPattern/src/main/java/pattern/proxy/dynamicproxy/cglibproxy/pattern/proxy/dynamicproxy/cglibproxy/Customer$$EnhancerByCGLIB$$be8de452$$FastClassByCGLIB$$6c24bb63.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usr/local/studyworkspace/study/studyPattern/src/main/java/pattern/proxy/dynamicproxy/cglibproxy/pattern/proxy/dynamicproxy/cglibproxy/Customer$$EnhancerByCGLIB$$be8de452.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usr/local/studyworkspace/study/studyPattern/src/main/java/pattern/proxy/dynamicproxy/cglibproxy/pattern/proxy/dynamicproxy/cglibproxy/Customer$$FastClassByCGLIB$$1ba70a1e.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studyVertx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studyVertx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studyVertx/studyVertx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studyVertx/studyVertx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summaryFramework/summaryframework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/summaryFramework/summaryframework.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,49 +137,10 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Aspect" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>var6</find>
-      <find>var</find>
-      <find>while</find>
-      <find>aspect</find>
-      <find>druid</find>
-      <find>DataSource</find>
-      <find>:</find>
-      <find>com.mysql.cj.jdbc.Driver</find>
-      <find>Invalid bound Invalid bound statement</find>
-      <find>addUser</find>
-      <find>deleteUserById</find>
-      <find>updateUserById</find>
-      <find>queryUserById</find>
-      <find>queryUserList</find>
-      <find>filters</find>
-      <find>DruidDbConfig</find>
-      <find>om.kaian.credit.biz.dao.apply</find>
-      <find>context.getBean</find>
-      <find>setAsText</find>
-      <find>Date</find>
-      <find>userManager</find>
-      <find>put</find>
-      <find>customEditors</find>
-      <find>registerCustomEditors</find>
-      <find>Entry</find>
-      <find>table</find>
-      <find>ThreadLocalMap</find>
-      <find>send</find>
-      <find>registerCenter</find>
-      <find>RemoteInvocationHandler</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>),</replace>
-      <replace>user</replace>
-      <replace>=</replace>
-      <replace>String</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -138,22 +180,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicProxy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/studyDruid/src/main/resources" />
-      <recent name="$PROJECT_DIR$/studyDruid/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/main/resources/db" />
-      <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="com.taosha.studydruid" />
@@ -161,19 +196,26 @@
       <recent name="com.taosha.summaryframework.customException" />
       <recent name="com.taosha.summaryframework.verify" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="client.remoteServer" />
-      <recent name="client" />
-      <recent name="serviceDiscovery" />
-      <recent name="service.registerCenter" />
-      <recent name="service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicProxy" />
+      <recent name="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy" />
+      <recent name="$PROJECT_DIR$/studyMybitsPlus/src/test/java" />
       <recent name="$PROJECT_DIR$/studyRpc/src/main/java" />
       <recent name="$PROJECT_DIR$/studySpring/src/main/resources/WEB-INF" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources/db" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/test/resources" />
-      <recent name="$PROJECT_DIR$/summaryFramework/src/main/java/com/taosha/summaryframework/customException" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pattern.proxy.dynamicproxy.tsproxy" />
+      <recent name="pattern.proxy.dynamicProxy" />
+      <recent name="pattern.proxy.staticProxy" />
+      <recent name="pattern.proxy.db" />
+      <recent name="com.taosha.studyMybitsPlus" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/jdkproxy" />
+      <recent name="$PROJECT_DIR$/studyPattern/src/main/java" />
+      <recent name="$PROJECT_DIR$/studyDruid/src/main/resources" />
+      <recent name="$PROJECT_DIR$/studyDruid/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/studyDruid/src/main/java/com/taosha/studydruid/dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,20 +230,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CglibTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.ClientDemo" />
-      <module name="studyRpc" />
+    <configuration name="CglibTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.proxy.dynamicproxy.cglibproxy.CglibTest" />
+      <module name="studyPattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="client.remoteServer.*" />
+          <option name="PATTERN" value="pattern.proxy.dynamicproxy.cglibproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,13 +251,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="taosha.Main" />
-      <module name="studyVertx" />
+    <configuration name="DbRouteProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.proxy.dbrource.DbRouteProxyTest" />
+      <module name="studyPattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taosha.*" />
+          <option name="PATTERN" value="pattern.proxy.dbrource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,13 +265,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="service.Server" />
-      <module name="studyRpc" />
+    <configuration name="JDKProxyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.proxy.dynamicproxy.jdkproxy.JDKProxyTest" />
+      <module name="studyPattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="pattern.proxy.dynamicproxy.jdkproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDKProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.proxy.dynamicproxy.JDKProxyTest" />
+      <module name="studyPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.proxy.dynamicproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyDruidApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.taosha.studydruid.StudyDruidApplicationTests" />
+      <module name="studyDruid" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taosha.studydruid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,39 +309,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyFirstVerticleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studyVertx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.taosha.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.taosha" />
-      <option name="MAIN_CLASS_NAME" value="com.taosha.MyFirstVerticleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyFirstVerticleTest.testApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studyVertx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.taosha.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.taosha" />
-      <option name="MAIN_CLASS_NAME" value="com.taosha.MyFirstVerticleTest" />
-      <option name="METHOD_NAME" value="testApplication" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -296,6 +333,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudyMybitsPlus" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="studyMybitsPlus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taosha.studyMybitsPlus.StudyMybitsPlus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudySpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="studySpringBoot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.taosha.studyspringboot.StudySpringBootApplication" />
@@ -306,6 +350,13 @@
     <configuration name="StudydruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="studyDruid" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.taosha.studydruid.StudyDruidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudymybitplusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="studyMybitPlus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taosha.studymybitplus.StudymybitplusApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -343,25 +394,30 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.ClientDemo" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MyFirstVerticleTest" />
-      <item itemvalue="JUnit.MyFirstVerticleTest.testApplication" />
+      <item itemvalue="Application.StudyDruidApplicationTests" />
+      <item itemvalue="Application.DbRouteProxyTest" />
       <item itemvalue="Spring Boot.StudySpringBootApplication" />
       <item itemvalue="Spring Boot.Studyzookeeper1Application" />
       <item itemvalue="Spring Boot.SummaryFrameworkApplication" />
       <item itemvalue="Spring Boot.StudydruidApplication" />
+      <item itemvalue="Spring Boot.StudyMybitsPlus" />
+      <item itemvalue="Spring Boot.StudymybitplusApplication" />
+      <item itemvalue="Application.JDKProxyTest" />
+      <item itemvalue="Application.JDKProxyTest (1)" />
+      <item itemvalue="Application.CglibTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MyFirstVerticleTest.testApplication" />
-        <item itemvalue="JUnit.MyFirstVerticleTest" />
-        <item itemvalue="Application.ClientDemo" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.CglibTest" />
+        <item itemvalue="Application.JDKProxyTest (1)" />
+        <item itemvalue="Application.JDKProxyTest" />
+        <item itemvalue="Application.DbRouteProxyTest" />
+        <item itemvalue="Application.StudyDruidApplicationTests" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -419,7 +475,15 @@
       <workItem from="1573478142498" duration="2235000" />
       <workItem from="1573524987503" duration="1312000" />
       <workItem from="1573551797766" duration="948000" />
-      <workItem from="1573558926010" duration="589000" />
+      <workItem from="1573558926010" duration="4438000" />
+      <workItem from="1573897303597" duration="395000" />
+      <workItem from="1573898668900" duration="5561000" />
+      <workItem from="1574003688909" duration="3701000" />
+      <workItem from="1577512498832" duration="2088000" />
+      <workItem from="1579511155988" duration="1802000" />
+      <workItem from="1595506734282" duration="415000" />
+      <workItem from="1598162950565" duration="2490000" />
+      <workItem from="1598168112916" duration="7683000" />
     </task>
     <servers />
   </component>
@@ -485,99 +549,56 @@
           <line>15</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>707</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/studyPattern/src/main/java/pattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>411</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>718</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java</url>
+          <line>369</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="cons" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>study</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
